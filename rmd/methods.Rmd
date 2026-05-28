@@ -1,0 +1,6 @@
+---
+title: "Methods"
+bibliography: rmd/references.bib
+---
+
+Write your Methods here! 

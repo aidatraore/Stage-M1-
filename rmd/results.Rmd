@@ -1,0 +1,8 @@
+---
+title: "Results"
+bibliography: rmd/references.bib
+---
+
+Write your results/discussion here!
+
+You can include figures using ![HCV Structure](figures/hcv_seq.png)

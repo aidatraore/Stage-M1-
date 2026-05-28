@@ -1,0 +1,30 @@
+---
+title: "HCV Household Transmission"
+subtitle: Aïda Traore, Natalie Olson, Jean-Pierre Moles
+bibliography: rmd/references.bib
+
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+  docx: default
+---
+
+## Introduction
+
+{{< include rmd/intro.rmd >}}
+
+## Methods
+
+{{< include rmd/methods.rmd >}}
+
+## Results
+
+{{< include rmd/results.rmd >}}
+
+## Abstract
+
+{{< include rmd/abstract.rmd >}}
+
+## References
