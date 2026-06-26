@@ -1,0 +1,15 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'Rapport_stage.blg'
+[23] biber-darwin:340> INFO - === mer. juin 24, 2026, 17:15:59
+[29] Biber.pm:420> INFO - Reading 'Rapport_stage.bcf'
+[52] Biber.pm:994> INFO - Found 17 citekeys in bib section 0
+[57] Biber.pm:4463> INFO - Processing section 0
+[61] Biber.pm:4654> INFO - Looking for bibtex file 'Reference.bib' for section 0
+[66] bibtex.pm:1713> INFO - LaTeX decoding ...
+[163] bibtex.pm:1519> INFO - Found BibTeX data source 'Reference.bib'
+[217] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[217] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[217] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'fr-FR'
+[217] Biber.pm:4289> INFO - No sort tailoring available for locale 'fr-FR'
+[222] bbl.pm:676> INFO - Writing 'Rapport_stage.bbl' with encoding 'UTF-8'
+[226] bbl.pm:779> INFO - Output to Rapport_stage.bbl

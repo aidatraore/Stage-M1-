@@ -1,0 +1,896 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{mennecierVirusLhepatiteMonhepatogastro2022}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=9fb2bb81d395e10df2cfa6ea88db2541}{%
+           family={Mennecier},
+           familyi={M\bibinitperiod},
+           given={Dr\bibnamedelima Didier},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9fb2bb81d395e10df2cfa6ea88db2541}
+      \strng{fullhash}{9fb2bb81d395e10df2cfa6ea88db2541}
+      \strng{fullhashraw}{9fb2bb81d395e10df2cfa6ea88db2541}
+      \strng{bibnamehash}{9fb2bb81d395e10df2cfa6ea88db2541}
+      \strng{authorbibnamehash}{9fb2bb81d395e10df2cfa6ea88db2541}
+      \strng{authornamehash}{9fb2bb81d395e10df2cfa6ea88db2541}
+      \strng{authorfullhash}{9fb2bb81d395e10df2cfa6ea88db2541}
+      \strng{authorfullhashraw}{9fb2bb81d395e10df2cfa6ea88db2541}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ce n'est qu'en 1989 que le virus responsable des hépatites non A non B est découvert. Il s'agissait du virus de l’hépatite virale C.}
+      \field{day}{7}
+      \field{langid}{french}
+      \field{month}{5}
+      \field{title}{Virus de l'hépatite C {<} monhepatogastro}
+      \field{titleaddon}{monhepatogastro}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/aidatraore/Zotero/storage/T5HDN44Q/virus-de-lhepatite-c.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://monhepatogastro.net/virus-de-lhepatite-c/
+      \endverb
+      \verb{url}
+      \verb https://monhepatogastro.net/virus-de-lhepatite-c/
+      \endverb
+    \endentry
+    \entry{VirusLhepatite2025}{inreference}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Le virus de l'hépatite C ({VHC}, l'abréviation anglaise {HCV} « Hepatitis C virus » est aussi utilisée en français), dont le nom scientifique est Hepacivirus hominis (anciennement Hepacivirus C), est un petit virus enveloppé, d'environ 60 nm de diamètre, dont le génome est un {ARN} monocaténaire linéaire de polarité positive contenu dans une capside protéique icosaédrique. Il présente une grande variabilité génétique : six génotypes différents ont été caractérisés et un septième a été identifié plus récemment. Il est responsable de l'hépatite C. Sa prévalence au Canada, en France et en Belgique est d'environ 1 \% ; elle grimpe jusqu'à 22 \% dans certaines régions d'Afrique (Égypte par exemple). Son mode de transmission est par le sang, essentiellement parentéral (piqûre, écorchure…) et dans une moindre mesure conséquence d'un contact sexuel avec une exposition au sang. Au Canada, où les risques de contamination via les banques de sang sont à toute fin pratique inexistants, la plupart des infections sont contractées via l'utilisation de drogues injectables avec une aiguille usagée. Ses corécepteurs connus sont des glycosaminoglycanes, {SR}-B1, {CD}81 (en) et la claudine-1. Il fait partie du genre Hepacivirus, au sein de la famille des Flaviviridae qui compte trois autres genre les Orthoflavivirus, les Pegivirus (en) et les Pestivirus (en). De nos jours, l'hépatite C infecte environ 3 \% de la population mondiale, soit approximativement 170 millions de personnes. En octobre 2020, le prix Nobel de Physiologie ou Médecine a été attribué à Harvey J. Alter, Michael Houghton et Charles M. Rice pour leur découverte du virus de l'hépatite C.}
+      \field{booktitle}{Wikipédia}
+      \field{day}{11}
+      \field{langid}{french}
+      \field{month}{2}
+      \field{note}{Page Version {ID}: 222926687}
+      \field{title}{Virus de l'hépatite C}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/aidatraore/Zotero/storage/EQN544K4/index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/w/index.php?title=Virus_de_l%27h%C3%A9patite_C&oldid=222926687
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/w/index.php?title=Virus_de_l%27h%C3%A9patite_C&oldid=222926687
+      \endverb
+    \endentry
+    \entry{pawlotskyVirusLhepatite2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0ccf94e3dc21e972bcee9217cbdecb94}{%
+           family={Pawlotsky},
+           familyi={P\bibinitperiod},
+           given={Jean-Michel},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EDK}%
+      }
+      \strng{namehash}{0ccf94e3dc21e972bcee9217cbdecb94}
+      \strng{fullhash}{0ccf94e3dc21e972bcee9217cbdecb94}
+      \strng{fullhashraw}{0ccf94e3dc21e972bcee9217cbdecb94}
+      \strng{bibnamehash}{0ccf94e3dc21e972bcee9217cbdecb94}
+      \strng{authorbibnamehash}{0ccf94e3dc21e972bcee9217cbdecb94}
+      \strng{authornamehash}{0ccf94e3dc21e972bcee9217cbdecb94}
+      \strng{authorfullhash}{0ccf94e3dc21e972bcee9217cbdecb94}
+      \strng{authorfullhashraw}{0ccf94e3dc21e972bcee9217cbdecb94}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Le virus de l’hépatite C ({VHC}) est un virus à {ARN} monocaténaire linéaire de polarité positive, doté d’une capside icosaédrique et d’une enveloppe. Son génome comporte un cadre de lecture ouvert unique, traduit en une polyprotéine précurseur secondairement clivée pour donner naissance aux protéines virales structurales et non structurales. Celles-ci, dotées de multiples fonctions importantes pour la biologie du virus, interagissent de façon complexe avec les protéines cellulaires de l’hôte. Les cinétiques de réplication du {VHC} sont très rapides et caractérisées par un état d’équilibre au stade d’infection chronique. Le {VHC} est un virus variable. Les souches virales se classent en 6 génotypes et de nombreux sous-types et le virus a une distribution en quasi-espèces chez les sujets infectés. En dix ans, la connaissance du {VHC} et des mécanismes de l’infection a progressé de façon spectaculaire. Les progrès sont cependant freinés par l’absence de système de culture cellulaire productive et par la faible disponibilité de modèles animaux proches du modèle humain. Le développement récent de réplicons subgénomiques, la disponibilité de systèmes fonctionnels permettant de tester de nouvelles molécules à visée thérapeutique et les avancées de la recherche vaccinale chez la souris et le chimpanzé devraient permettre d’importants progrès au cours des dix prochaines années.}
+      \field{day}{1}
+      \field{issn}{0767-0974, 1958-5381}
+      \field{journaltitle}{médecine/sciences}
+      \field{langid}{french}
+      \field{month}{3}
+      \field{number}{3}
+      \field{shortjournal}{Med Sci (Paris)}
+      \field{title}{Le virus de l’hépatite C}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{18}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{303\bibrangedash 314}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1051/medsci/2002183303
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/aidatraore/Zotero/storage/TXUUSIBG/Pawlotsky - 2002 - Le virus de l’hépatite C.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.medecinesciences.org/articles/medsci/abs/2002/03/medsci2002183p303/medsci2002183p303.html
+      \endverb
+      \verb{url}
+      \verb https://www.medecinesciences.org/articles/medsci/abs/2002/03/medsci2002183p303/medsci2002183p303.html
+      \endverb
+    \endentry
+    \entry{chevaliezVirusLhepatiteVHC}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=864c1d897dc9414fd5306460ef971b11}{%
+           family={Chevaliez},
+           familyi={C\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{864c1d897dc9414fd5306460ef971b11}
+      \strng{fullhash}{864c1d897dc9414fd5306460ef971b11}
+      \strng{fullhashraw}{864c1d897dc9414fd5306460ef971b11}
+      \strng{bibnamehash}{864c1d897dc9414fd5306460ef971b11}
+      \strng{authorbibnamehash}{864c1d897dc9414fd5306460ef971b11}
+      \strng{authornamehash}{864c1d897dc9414fd5306460ef971b11}
+      \strng{authorfullhash}{864c1d897dc9414fd5306460ef971b11}
+      \strng{authorfullhashraw}{864c1d897dc9414fd5306460ef971b11}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Virus de l’hépatite C ({VHC})}
+      \verb{file}
+      \verb PDF:/Users/aidatraore/Zotero/storage/8VB3AB42/Chevaliez - Virus de l’hépatite C (VHC).pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sfm-microbiologie.org/wp-content/uploads/2019/02/VIRUS_HEPATITE-C.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sfm-microbiologie.org/wp-content/uploads/2019/02/VIRUS_HEPATITE-C.pdf
+      \endverb
+    \endentry
+    \entry{FlaviviridaeClassificationLHepacivirus}{online}{}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{title}{Flaviviridae : Classification de l'Hépacivirus C {|} {TICV}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Flaviviridae \: Classification de l'Hépacivirus C | TICV:/Users/aidatraore/Zotero/storage/5YC5JBTS/hepacivirus.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ictv.global/sg_wiki/flaviviridae/hepacivirus
+      \endverb
+      \verb{url}
+      \verb https://ictv.global/sg_wiki/flaviviridae/hepacivirus
+      \endverb
+    \endentry
+    \entry{Hepatitisb}{online}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{WHO} fact sheet on hepatitis C, how it is transmitted, symptoms, prevention, testing and diagnosis, treatment and {WHO} activities.}
+      \field{langid}{french}
+      \field{title}{Hepatitis C}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/aidatraore/Zotero/storage/QXTJDMAY/hepatitis-c.html:text/html;Snapshot:/Users/aidatraore/Zotero/storage/QSKQ4S28/hepatitis-c.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.who.int/news-room/fact-sheets/detail/hepatitis-c
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/news-room/fact-sheets/detail/hepatitis-c
+      \endverb
+    \endentry
+    \entry{zebaCharacterisationHepatitisVirus2014}{article}{}{}
+      \name{author}{13}{}{%
+        {{hash=6e5062363983a471f7ba4683a5172617}{%
+           family={Zeba},
+           familyi={Z\bibinitperiod},
+           given={Moctar\bibnamedelimb Tokèda\bibnamedelima Abdoul},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3f8e84613f19c96466fe18c8aadfd8f4}{%
+           family={Sanou},
+           familyi={S\bibinitperiod},
+           given={Mahamoudou},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7b155775f827a48eb7a664e207e5b5b5}{%
+           family={Bisseye},
+           familyi={B\bibinitperiod},
+           given={Cyrille},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6216e96ff97d82099a21451602554853}{%
+           family={Kiba},
+           familyi={K\bibinitperiod},
+           given={Alice},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3faee24ff035e31a31014768fbc6579b}{%
+           family={Nagalo},
+           familyi={N\bibinitperiod},
+           given={Bolni\bibnamedelima Marius},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5f121e7916a7f9555e8fa6383050133e}{%
+           family={Djigma},
+           familyi={D\bibinitperiod},
+           given={Florencia\bibnamedelima Wendkuuni},
+           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=ea73be3cbb377aec77d81be10d8eb1f2}{%
+           family={Compaoré},
+           familyi={C\bibinitperiod},
+           given={Tegwindé\bibnamedelima Rebecca},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8ab676da681073b45608cd30f0e13674}{%
+           family={Nebié},
+           familyi={N\bibinitperiod},
+           given={Yacouba\bibnamedelima Koumpingnin},
+           giveni={Y\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=773e9f63880a52a605e08ec1c633dff3}{%
+           family={Kienou},
+           familyi={K\bibinitperiod},
+           given={Kisito},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d2ec77c7719061e416902ecf699e9677}{%
+           family={Sagna},
+           familyi={S\bibinitperiod},
+           given={Tani},
+           giveni={T\bibinitperiod}}}%
+        {{hash=790eb34128c72ef7293e2e3985168257}{%
+           family={Pietra},
+           familyi={P\bibinitperiod},
+           given={Virginio},
+           giveni={V\bibinitperiod}}}%
+        {{hash=b4fdaecba60d4f5375c722fefbd19c02}{%
+           family={Moret},
+           familyi={M\bibinitperiod},
+           given={Rémy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=182ad119dd47c101b7187e95613a68ad}{%
+           family={Simporé},
+           familyi={S\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0cfb3eac608f585063b1f013e656b9e}
+      \strng{fullhash}{ff903ebd78258359c3b0f87315fbd19f}
+      \strng{fullhashraw}{ff903ebd78258359c3b0f87315fbd19f}
+      \strng{bibnamehash}{c0cfb3eac608f585063b1f013e656b9e}
+      \strng{authorbibnamehash}{c0cfb3eac608f585063b1f013e656b9e}
+      \strng{authornamehash}{c0cfb3eac608f585063b1f013e656b9e}
+      \strng{authorfullhash}{ff903ebd78258359c3b0f87315fbd19f}
+      \strng{authorfullhashraw}{ff903ebd78258359c3b0f87315fbd19f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{BACKGROUND}: Hepatitis C virus ({HCV}) is responsible for about 900 deaths every year in Burkina Faso. In this country, serological screening for hepatitis B and C viruses is only carried out systematically among blood donors. The aim of this study was to determine the prevalence and genotypes of {HCV} among blood donors using reverse transcription polymerase chain reaction ({PCR}) and real-time {PCR}, respectively. {MATERIALS} {AND} {METHODS}: Serum samples were screened for antibodies to {HCV} using an enzyme-linked immunosorbent assay ({ARCHITECT}-i1000SR-{ABBOTT}). All the reactive samples for {HCV} antibodies were re-tested using a second enzyme-linked immunosorbent assay (Bio-Rad, Marnes la Coquette, France) for confirmation. {RNA} was detected in all the reactive samples for antibodies to {HCV}. {HCV} {RNA} positive samples were genotyped using the {HCV} Real-{TM} Genotype kit (Sacace Biotechnologies, Italy). {RESULTS}: Among 2,200 blood donors, the prevalences of antibodies to {HCV} and viral {RNA} were 4.4\% (95\% confidence interval=3.5-5.3) and 1.5\% (95\% confidence interval=1.0-2.0), respectively. Among {HCV} {RNA} carriers, genotyping showed that {HCV} genotypes 2 and 3 were the most prevalent as they were detected in 18 (56.3\%) and 5 (15.6\%) individuals, respectively. {HCV} genotypes 1a and 4 were the least frequent among the blood donors. {HCV} mixed genotypes 2/3 and 2/4 were also detected among the blood donors. {CONCLUSION}: The prevalence of {HCV} found in this study is lower than previously reported prevalences. Large-scale studies are needed to obtain a better picture of the molecular epidemiology of {HCV} in Burkina Faso.}
+      \field{issn}{2385-2070}
+      \field{issue}{Suppl 1}
+      \field{journaltitle}{Blood Transfusion = Trasfusione Del Sangue}
+      \field{month}{1}
+      \field{shortjournal}{Blood Transfus}
+      \field{title}{Characterisation of hepatitis C virus genotype among blood donors at the regional blood transfusion centre of Ouagadougou, Burkina Faso}
+      \field{volume}{12 Suppl 1}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{s54\bibrangedash 57}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2450/2013.0089-12
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/aidatraore/Zotero/storage/6JEEPL5K/Zeba et al. - 2014 - Characterisation of hepatitis C virus genotype among blood donors at the regional blood transfusion.pdf:application/pdf
+      \endverb
+      \keyw{Burkina Faso,{HIV} Infections,Humans,Aged,Female,Male,Middle Aged,Adult,Adolescent,Young Adult,Genotype,Hepacivirus,Hepatitis C,Seroepidemiologic Studies,{RNA},Viral,Hepatitis B,Hepatitis C Antibodies,Syphilis,Comorbidity,Genotyping Techniques,Blood Banks,Blood Donors,Donor Selection,Enzyme-Linked Immunosorbent Assay,Reagent Kits,Diagnostic,Viremia,{RNA},Viral,Diagnostic,Reagent Kits}
+    \endentry
+    \entry{ouobaEpidemiologicProfileHepatitis2021}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=8d9daf23fc22d6ae929e39105f4fb6cd}{%
+           family={Ouoba},
+           familyi={O\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8d0d9fdf9bbacb97bada85938d179471}{%
+           family={Ouedraogo},
+           familyi={O\bibinitperiod},
+           given={Jean\bibnamedelimb Claude\bibnamedelimb Romaric\bibnamedelima Pingdwinde},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=ccea9b5ebb3bb0edfffbba895d1058c4}{%
+           family={Lingani},
+           familyi={L\bibinitperiod},
+           given={Moussa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d71d7f9bbc01cd3a4a702830f001a622}{%
+           family={E},
+           familyi={E\bibinitperiod},
+           given={Bunthen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7e82330a44ee34b683f8d9d0f3a52ccd}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Md\bibnamedelima Razeen\bibnamedelima Ashraf},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=65c5eec30da6fa7862448c41539ef780}{%
+           family={Ko},
+           familyi={K\bibinitperiod},
+           given={Ko},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e2fbfa5b77ca38e49b1f8e685780d51f}{%
+           family={Nagashima},
+           familyi={N\bibinitperiod},
+           given={Shintaro},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1c3afc52614bb850b74c2d3c16055fc6}{%
+           family={Sugiyama},
+           familyi={S\bibinitperiod},
+           given={Aya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d4d5dc6a100282f8201e553aef1e7749}{%
+           family={Akita},
+           familyi={A\bibinitperiod},
+           given={Tomoyuki},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5e7899053bc51c223feccf83db6856e9}{%
+           family={Tinto},
+           familyi={T\bibinitperiod},
+           given={Halidou},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c79f19e41f9ea2ed679a53cf9aa18029}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Junko},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba83bd5487bfbc3c21872f537adb91fa}
+      \strng{fullhash}{9cad7e99b360cadda62ddd525509d7a5}
+      \strng{fullhashraw}{9cad7e99b360cadda62ddd525509d7a5}
+      \strng{bibnamehash}{ba83bd5487bfbc3c21872f537adb91fa}
+      \strng{authorbibnamehash}{ba83bd5487bfbc3c21872f537adb91fa}
+      \strng{authornamehash}{ba83bd5487bfbc3c21872f537adb91fa}
+      \strng{authorfullhash}{9cad7e99b360cadda62ddd525509d7a5}
+      \strng{authorfullhashraw}{9cad7e99b360cadda62ddd525509d7a5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{{BACKGROUND}: Detailed characteristics of Hepatitis C virus ({HCV}) infection in Burkina Faso are scarce. The main aim of this study was to assess {HCV} seroprevalence in various settings and populations at risk in Burkina Faso between 1990 and 2020. Secondary objectives included the prevalence of {HCV} Ribonucleic acid ({RNA}) and the distribution of {HCV} genotypes. {METHODS}: A systematic database search, supplemented by a manual search, was conducted in {PubMed}, Web of Science, Scopus, and African Index Medicus. Studies reporting {HCV} seroprevalence data in low and high-risk populations in Burkina Faso were included, and a random-effects meta-analysis was applied. Risk of bias was assessed using the Joanna Briggs institute checklist. {RESULTS}: Low-risk populations were examined in 31 studies involving a total of 168,151 subjects, of whom 8330 were positive for {HCV} antibodies. Six studies included a total of 1484 high-risk persons, and 96 had antibodies to {HCV}. The pooled seroprevalence in low-risk populations was 3.72\% (95\% {CI}: 3.20-4.28) and 4.75\% (95\% {CI}: 1.79-8.94) in high-risk groups. A non-significant decreasing trend was observed over the study period. Seven studies tested {HCV} {RNA} in a total of 4759 individuals at low risk for {HCV} infection, and 81 were positive. The meta-analysis of {HCV} {RNA} yielded a pooled prevalence of 1.65\% (95\% {CI}: 0.74-2.89\%) in low-risk populations, which is assumed to be indicative of {HCV} prevalence in the general population of Burkina Faso and suggests that about 301,174 people are active {HCV} carriers in the country. Genotypes 2 and 1 were the most frequent, with 60.3\% and 25.0\%, respectively. {CONCLUSIONS}: {HCV} seroprevalence is intermediate in Burkina Faso and indicates the need to implement effective control strategies. There is a paucity of data at the national level and for rural and high-risk populations. General population screening and linkage to care are recommended, with special attention to rural and high-risk populations.}
+      \field{day}{1}
+      \field{issn}{1471-2334}
+      \field{journaltitle}{{BMC} infectious diseases}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{{BMC} Infect Dis}
+      \field{shorttitle}{Epidemiologic profile of hepatitis C virus infection and genotype distribution in Burkina Faso}
+      \field{title}{Epidemiologic profile of hepatitis C virus infection and genotype distribution in Burkina Faso: a systematic review with meta-analysis}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{1126}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12879-021-06817-x
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/aidatraore/Zotero/storage/3DWAX5EI/s12879-021-06817-x.html:text/html;Snapshot:/Users/aidatraore/Zotero/storage/JBXE23F9/s12879-021-06817-x.html:text/html;Texte intégral:/Users/aidatraore/Zotero/storage/LG8HS3XN/Ouoba et al. - 2021 - Epidemiologic profile of hepatitis C virus infection and genotype distribution in Burkina Faso a sy.pdf:application/pdf
+      \endverb
+      \keyw{Burkina Faso,Humans,Prevalence,Génotype,Hépatite C,Prévalence,Revue systématique,Séroprévalence,Genotype,Hepacivirus,Hepatitis C,Seroepidemiologic Studies,Seroprevalence,Systematic review}
+    \endentry
+    \entry{MenageInsee}{online}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Ménage {|} Insee}
+      \field{urlday}{16}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Ménage | Insee:/Users/aidatraore/Zotero/storage/22QS2XX3/c1879.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.insee.fr/fr/metadonnees/definition/c1879
+      \endverb
+      \verb{url}
+      \verb https://www.insee.fr/fr/metadonnees/definition/c1879
+      \endverb
+    \endentry
+    \entry{BurkinaFasoRecensement}{online}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Burkina Faso - Recensement Général de la Population et de l'Habitation de 1996}
+      \field{urlday}{16}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Burkina Faso - Recensement Général de la Population et de l'Habitation de 1996:/Users/aidatraore/Zotero/storage/8JCKS8F5/V35.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://microdata.insd.bf/index.php/catalog/42/variable/F2/V35?name=typmen
+      \endverb
+      \verb{url}
+      \verb https://microdata.insd.bf/index.php/catalog/42/variable/F2/V35?name=typmen
+      \endverb
+    \endentry
+    \entry{Djoro2026}{inreference}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Le Djôrô est une des 17 régions administratives du Burkina Faso.}
+      \field{booktitle}{Wikipédia}
+      \field{day}{6}
+      \field{langid}{french}
+      \field{month}{4}
+      \field{note}{Page Version {ID}: 234867136}
+      \field{title}{Djôrô}
+      \field{urlday}{16}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/aidatraore/Zotero/storage/SEN98RTH/index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/w/index.php?title=Dj%C3%B4r%C3%B4&oldid=234867136
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/w/index.php?title=Dj%C3%B4r%C3%B4&oldid=234867136
+      \endverb
+    \endentry
+    \entry{SangerSequencing2026}{inreference}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Sanger sequencing is a method of {DNA} sequencing that involves electrophoresis and is based on the random incorporation of chain-terminating dideoxynucleotides by {DNA} polymerase during in vitro {DNA} replication. After first being developed by Frederick Sanger and colleagues in 1977, it became the most widely used sequencing method for approximately 40 years. An automated instrument using slab gel electrophoresis and fluorescent labels was first commercialized by Applied Biosystems in March 1987. Later, automated slab gels were replaced with automated capillary array electrophoresis. Recently, higher volume Sanger sequencing has been replaced by next generation sequencing methods, especially for large-scale, automated genome analyses. However, the Sanger method remains in wide use for smaller-scale projects and for validation of deep sequencing results. It still has the advantage over short-read sequencing technologies (like Illumina) in that it can produce {DNA} sequence reads of {>} 500 nucleotides and maintains a very low error rate with accuracies around 99.99\%. Sanger sequencing is still actively being used in efforts for public health initiatives such as sequencing the spike protein from {SARS}-{CoV}-2 as well as for the surveillance of norovirus outbreaks through the United States Center for Disease Control and Prevention ({CDC})'s {CaliciNet} surveillance network.}
+      \field{booktitle}{Wikipedia}
+      \field{day}{18}
+      \field{langid}{french}
+      \field{month}{5}
+      \field{note}{Page Version {ID}: 1354909535}
+      \field{title}{Sanger sequencing}
+      \field{urlday}{27}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/aidatraore/Zotero/storage/A487R2AA/index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Sanger_sequencing&oldid=1354909535#Method
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Sanger_sequencing&oldid=1354909535#Method
+      \endverb
+    \endentry
+    \entry{montoyaDeepSequencingIncreases2016}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=406010608823d568e7308f39a9b0a7f9}{%
+           family={Montoya},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4f8e56912f4cffd430fbcfac339dd318}{%
+           family={Olmstead},
+           familyi={O\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8e8fd95b22a5a38a0d09e62b0c9bf97c}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c79822d336fa9ca04ae38ae78ffe7523}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Darrel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8b71cce60bfae350718e62980e1e7616}{%
+           family={Janjua},
+           familyi={J\bibinitperiod},
+           given={Naveed},
+           giveni={N\bibinitperiod}}}%
+        {{hash=33ee28b54ae20561584a0365ffabdfff}{%
+           family={Grebely},
+           familyi={G\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=55ab628abd5b539c831694cd29dd4b49}{%
+           family={Jacka},
+           familyi={J\bibinitperiod},
+           given={Brendan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3e2eba6f59b8ec6ab05b18ac2e61d4bf}{%
+           family={Poon},
+           familyi={P\bibinitperiod},
+           given={Art\bibnamedelimb F.\bibnamedelimi Y.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=2124a50c5766d71906dd79b8ae86c45b}{%
+           family={Krajden},
+           familyi={K\bibinitperiod},
+           given={Mel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{08c6aba262b9fb318f875bfd13a6dc74}
+      \strng{fullhash}{8fa3f07da9fa49b7e22c6761b48a8b05}
+      \strng{fullhashraw}{8fa3f07da9fa49b7e22c6761b48a8b05}
+      \strng{bibnamehash}{08c6aba262b9fb318f875bfd13a6dc74}
+      \strng{authorbibnamehash}{08c6aba262b9fb318f875bfd13a6dc74}
+      \strng{authornamehash}{08c6aba262b9fb318f875bfd13a6dc74}
+      \strng{authorfullhash}{8fa3f07da9fa49b7e22c6761b48a8b05}
+      \strng{authorfullhashraw}{8fa3f07da9fa49b7e22c6761b48a8b05}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Effective surveillance and treatment strategies are required to control the hepatitis C virus ({HCV}) epidemic. Phylogenetic analyses are powerful tools for reconstructing the evolutionary history of viral outbreaks and identifying transmission clusters. These studies often rely on Sanger sequencing which typically generates a single consensus sequence for each infected individual. For rapidly mutating viruses such as {HCV}, consensus sequencing underestimates the complexity of the viral quasispecies population and could therefore generate different phylogenetic tree topologies. Although deep sequencing provides a more detailed quasispecies characterization, in-depth phylogenetic analyses are challenging due to dataset complexity and computational limitations. Here, we apply deep sequencing to a characterized population to assess its ability to identify phylogenetic clusters compared with consensus Sanger sequencing. For deep sequencing, a sample specific threshold determined by the 50th percentile of the patristic distance distribution for all variants within each individual was used to identify clusters. Among seven patristic distance thresholds tested for the Sanger sequence phylogeny ranging from 0.005-0.06, a threshold of 0.03 was found to provide the maximum balance between positive agreement (samples in a cluster) and negative agreement (samples not in a cluster) relative to the deep sequencing dataset. From 77 {HCV} seroconverters, 10 individuals were identified in phylogenetic clusters using both methods. Deep sequencing analysis identified an additional 4 individuals and excluded 8 other individuals relative to Sanger sequencing. The application of this deep sequencing approach could be a more effective tool to understand onward {HCV} transmission dynamics compared with Sanger sequencing, since the incorporation of minority sequence variants improves the discrimination of phylogenetically linked clusters.}
+      \field{issn}{1567-7257}
+      \field{journaltitle}{Infection, Genetics and Evolution: Journal of Molecular Epidemiology and Evolutionary Genetics in Infectious Diseases}
+      \field{month}{9}
+      \field{shortjournal}{Infect Genet Evol}
+      \field{title}{Deep sequencing increases hepatitis C virus phylogenetic cluster detection compared to Sanger sequencing}
+      \field{volume}{43}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{329\bibrangedash 337}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.meegid.2016.06.015
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/aidatraore/Zotero/storage/TV6MG9FX/Montoya et al. - 2016 - Deep sequencing increases hepatitis C virus phylogenetic cluster detection compared to Sanger sequen.pdf:application/pdf
+      \endverb
+      \keyw{Humans,Genetic Variation,Genome,Viral,Phylogeny,Genotype,Hepacivirus,Biological Evolution,High-Throughput Nucleotide Sequencing,Hepatitis C virus,Transmission,Phylogenetics,Hepatitis C,Chronic,Cluster Analysis,Quasispecies,British Columbia,Deep sequencing}
+    \endentry
+    \entry{cortesSpousetoSpouseTransmissionEvolution2016}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=265680bc3bc75b8be9d3198aa2094f58}{%
+           family={Cortes},
+           familyi={C\bibinitperiod},
+           given={Kamila\bibnamedelima Caraballo},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=4601fa56af51e020bb4190f6ab805b40}{%
+           family={Zagordi},
+           familyi={Z\bibinitperiod},
+           given={Osvaldo},
+           giveni={O\bibinitperiod}}}%
+        {{hash=59044f6e81b397cb4eed403a139f1c11}{%
+           family={Jabłońska},
+           familyi={J\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4c7390adc9aff803000d12e16379efa7}{%
+           family={Pawełczyk},
+           familyi={P\bibinitperiod},
+           given={Agnieszka},
+           giveni={A\bibinitperiod}}}%
+        {{hash=39fc44073e36aa9cf6da65396a74a650}{%
+           family={Kubisa},
+           familyi={K\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6292ea8956fa025bda5a394ed3af4569}{%
+           family={Perlejewski},
+           familyi={P\bibinitperiod},
+           given={Karol},
+           giveni={K\bibinitperiod}}}%
+        {{hash=03c0ce7bacb0465bb4ecbbf38c3c1c8d}{%
+           family={Bukowska-Ośko},
+           familyi={B\bibinithyphendelim O\bibinitperiod},
+           given={Iwona},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5020f457a60580f364ca736353590bd1}{%
+           family={Płoski},
+           familyi={P\bibinitperiod},
+           given={Rafał},
+           giveni={R\bibinitperiod}}}%
+        {{hash=625581d81fe924e3323607f630fcdc93}{%
+           family={Radkowski},
+           familyi={R\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8809534f52c4e84c1a84ba3df3a2cfd7}{%
+           family={Laskus},
+           familyi={L\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{e9cd2ff9b3315f7014b7a5397e217cfd}
+      \strng{fullhash}{4738e3d1405c9945c990cf4a8973b690}
+      \strng{fullhashraw}{4738e3d1405c9945c990cf4a8973b690}
+      \strng{bibnamehash}{e9cd2ff9b3315f7014b7a5397e217cfd}
+      \strng{authorbibnamehash}{e9cd2ff9b3315f7014b7a5397e217cfd}
+      \strng{authornamehash}{e9cd2ff9b3315f7014b7a5397e217cfd}
+      \strng{authorfullhash}{4738e3d1405c9945c990cf4a8973b690}
+      \strng{authorfullhashraw}{4738e3d1405c9945c990cf4a8973b690}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hepatitis C virus ({HCV}) transmission between spouses remains poorly characterized, largely due to the limited availability of samples from the early stage of infection, as well as methodological constraints. A fifty-eight year-old male developed acute hepatitis C infection and his 53-year old spouse has been {HCV}-positive for over 10 years. Serum samples were collected from both at the time of acute hepatitis C diagnosis in male (baseline) and then at 9 and 13 months. Hypervariable region 1 ({HVR}1) and 5’ untranslated region (5’{UTR}) sequences were amplified and subjected to next generation sequencing ({NGS}) using a pyrosequencing platform. Genetic variants were inferred by Shorah reconstruction method and compared by phylogenetic and sequence diversity analysis. As the sequencing error of the procedure was previously determined to be ≤ 1.5\%, the analysis was conducted with and without the 1.5\% cut-off with regard to the frequency of variants. No identical {HVR}1 variants were identified in spouses at baseline and follow-up samples regardless whether the cut-off was applied or not. However, there was high similarity (98.3\%) between a minor baseline donor variant (1.7\% frequency) and the most abundant baseline recipient variant (62.5\% frequency). Furthermore, donor and recipient strains clustered together when compared to 10 control subjects from the same area and infected with the same {HCV} subtype. There was an increase in {HVR}1 complexity (number of genetic variants) over time in both spouses. In contrast, the 5'{UTR} region was stable and of low complexity throughout the study. In conclusion, intrafamilial {HCV} transmission may be established by a very minor variant and investigation of this phenomenon requires high-sensitivity assays, such as {NGS}.}
+      \field{day}{26}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{{PLOS} {ONE}}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{{PLOS} {ONE}}
+      \field{title}{Spouse-to-Spouse Transmission and Evolution of Hypervariable Region 1 and 5’ Untranslated Region of Hepatitis C Virus Analyzed by Next-Generation Sequencing}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e0150311}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0150311
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/aidatraore/Zotero/storage/ZV9LSD96/Cortes et al. - 2016 - Spouse-to-Spouse Transmission and Evolution of Hypervariable Region 1 and 5’ Untranslated Region of.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150311
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150311
+      \endverb
+      \keyw{Hepatitis C virus,Phylogenetic analysis,Next-generation sequencing,Viral evolution,5' {UTR},Chronic hepatitis,Interferons,Population genetics}
+    \endentry
+    \entry{bartlettPatternsCorrelatesHepatitis2022}{article}{}{}
+      \name{author}{18}{}{%
+        {{hash=708ba0500aff7652d1d33692d105ca66}{%
+           family={Bartlett},
+           familyi={B\bibinitperiod},
+           given={Sofia\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=dbd4a7c44484807d11e8c5f72fefcc90}{%
+           family={Verich},
+           familyi={V\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d2d0cc1b52a6e1292a158860bd0980cb}{%
+           family={Carson},
+           familyi={C\bibinitperiod},
+           given={Joanne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5612f1d2a12cee9c193b78041e506457}{%
+           family={Hosseini-Hooshyar},
+           familyi={H\bibinithyphendelim H\bibinitperiod},
+           given={Samira},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a230219986ed2dd7ea7e31de117735d1}{%
+           family={Read},
+           familyi={R\bibinitperiod},
+           given={Phillip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0a4bf63dda6866266c8bc5be43bdb32f}{%
+           family={Post},
+           familyi={P\bibinitperiod},
+           given={Jeffrey\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=16e8fddb5a73ea6a629b7c10d38db1be}{%
+           family={Finlayson},
+           familyi={F\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=032598dca5f29c7e445714e6b76b2f79}{%
+           family={Bloch},
+           familyi={B\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bd9fc01e305251c9f6259e98c75349cc}{%
+           family={Doyle},
+           familyi={D\bibinitperiod},
+           given={Joseph\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=bc11bf0a2aa7df57b96c2c4db1f770ee}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6832615af45bbde14e48388036e34e7f}{%
+           family={Hellard},
+           familyi={H\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cbdb32177e151ae1469d8b7e03b50f13}{%
+           family={Martinez},
+           familyi={M\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7f2f869510904f74398036b68508e7a5}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={Philippa},
+           giveni={P\bibinitperiod}}}%
+        {{hash=60a2aaa3b4e3a8627968cfeffea09f98}{%
+           family={Dore},
+           familyi={D\bibinitperiod},
+           given={Gregory\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ab01973064bcb83a31a438f86e1d791b}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={Gail\bibnamedelima V.},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=c37a9a8f6f73c64145fcd17b9be5be01}{%
+           family={Applegate},
+           familyi={A\bibinitperiod},
+           given={Tanya},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9810f7104b76b1df4e589da9be8f606e}{%
+           family={Martinello},
+           familyi={M\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebdcfa7f28d055b45a2376c93d73dfdf}
+      \strng{fullhash}{0275cf22d7df64cbba6e160a0242c7ef}
+      \strng{fullhashraw}{0275cf22d7df64cbba6e160a0242c7ef}
+      \strng{bibnamehash}{ebdcfa7f28d055b45a2376c93d73dfdf}
+      \strng{authorbibnamehash}{ebdcfa7f28d055b45a2376c93d73dfdf}
+      \strng{authornamehash}{ebdcfa7f28d055b45a2376c93d73dfdf}
+      \strng{authorfullhash}{0275cf22d7df64cbba6e160a0242c7ef}
+      \strng{authorfullhashraw}{0275cf22d7df64cbba6e160a0242c7ef}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background and Aims In moving towards the elimination of hepatitis C virus ({HCV}) infection among people living with {HIV}, understanding {HCV} transmission patterns may provide insights to guide and evaluate interventions. In this study, we evaluated patterns of, and factors associated with {HCV} phylogenetic clustering among people living with {HIV}/{HCV} co-infection in Australia in the direct-acting antiviral era. Methods {HCV} {RNA} was extracted from dried blood spot ({DBS}) samples collected between 2014 and 2018 in the {CEASE} cohort study. The {HCV} Core-E2 region was amplified by a polymerase chain reaction and Sanger sequenced. Maximum likelihood phylogenetic trees (1000 bootstrap replicates) were used to identify patterns of clustering (3\% genetic distance threshold). Mixed-effects logistic regression was used to determine correlates of phylogenetic clustering. Factors assessed were sexual risk behavior, education, injecting drug use, housing, employment, {HIV} viral load, age, sex, and sexuality. Results Phylogenetic trees were reconstructed for {HCV} subtype 1a (n = 139) and 3a (n = 63) sequences, with 29\% (58/202) in a pair or cluster. Overall (n = 202), phylogenetic clustering was positively associated with younger age (under 40; adjusted odds ratio [{aOR}] 2.52, 95\% confidence interval [{CI}] 1.20–5.29), and among gay and bisexual men (n = 168), was positively associated with younger age ({aOR} 2.61, 95\% {CI} 1.10–6.19), higher education ({aOR} 2.58, 95\% {CI} 1.09–6.13), and reporting high-risk sexual behavior ({aOR} 3.94, 95\% {CI} 1.31–11.84). During follow-up, five reinfections were observed, but none were in phylogenetic clusters. Conclusion This study found a high proportion of phylogenetic relatedness, predominantly among younger people and gay and bisexual men reporting high-risk sexual behavior. Despite this, few reinfections were observed, and reinfections demonstrated little relationship with known clusters. These findings highlight the importance of rapid {HCV} treatment initiation, together with monitoring of the phylogeny.}
+      \field{issn}{2398-8835}
+      \field{journaltitle}{Health Science Reports}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/hsr2.719}
+      \field{number}{5}
+      \field{shorttitle}{Patterns and correlates of hepatitis C virus phylogenetic clustering among people living with {HIV} in Australia in the direct-acting antiviral era}
+      \field{title}{Patterns and correlates of hepatitis C virus phylogenetic clustering among people living with {HIV} in Australia in the direct-acting antiviral era: A molecular epidemiology study among participants in the {CEASE} cohort}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{5}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{e719}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/hsr2.719
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/aidatraore/Zotero/storage/YVDFRZ9V/Bartlett et al. - 2022 - Patterns and correlates of hepatitis C virus phylogenetic clustering among people living with HIV in.pdf:application/pdf;Snapshot:/Users/aidatraore/Zotero/storage/5DU6EGN6/hsr2.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/hsr2.719
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/hsr2.719
+      \endverb
+      \keyw{{HIV},hepatitis C,phylogenetic analysis,gay and bisexual men ({GBM}),molecular sequencing}
+    \endentry
+    \entry{NeighborJoining2026}{inreference}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In bioinformatics, neighbor joining is a bottom-up (agglomerative) clustering method for the creation of phylogenetic trees, created by Naruya Saitou and Masatoshi Nei in 1987. Usually based on {DNA} or protein sequence data, the algorithm requires knowledge of the distance between each pair of taxa (e.g., species or sequences) to create the phylogenetic tree.}
+      \field{booktitle}{Wikipedia}
+      \field{day}{17}
+      \field{langid}{french}
+      \field{month}{4}
+      \field{note}{Page Version {ID}: 1349387155}
+      \field{title}{Neighbor joining}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/aidatraore/Zotero/storage/PN8V7NCV/index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Neighbor_joining&oldid=1349387155
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Neighbor_joining&oldid=1349387155
+      \endverb
+    \endentry
+    \entry{stamatakisRAxMLVersion82014}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fa9cb11fc0196cb2a4dac60fa1bb9926}{%
+           family={Stamatakis},
+           familyi={S\bibinitperiod},
+           given={Alexandros},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa9cb11fc0196cb2a4dac60fa1bb9926}
+      \strng{fullhash}{fa9cb11fc0196cb2a4dac60fa1bb9926}
+      \strng{fullhashraw}{fa9cb11fc0196cb2a4dac60fa1bb9926}
+      \strng{bibnamehash}{fa9cb11fc0196cb2a4dac60fa1bb9926}
+      \strng{authorbibnamehash}{fa9cb11fc0196cb2a4dac60fa1bb9926}
+      \strng{authornamehash}{fa9cb11fc0196cb2a4dac60fa1bb9926}
+      \strng{authorfullhash}{fa9cb11fc0196cb2a4dac60fa1bb9926}
+      \strng{authorfullhashraw}{fa9cb11fc0196cb2a4dac60fa1bb9926}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Motivation: Phylogenies are increasingly used in all fields of medical and biological research. Moreover, because of the next-generation sequencing revolution, datasets used for conducting phylogenetic analyses grow at an unprecedented pace. {RAxML} (Randomized Axelerated Maximum Likelihood) is a popular program for phylogenetic analyses of large datasets under maximum likelihood. Since the last {RAxML} paper in 2006, it has been continuously maintained and extended to accommodate the increasingly growing input datasets and to serve the needs of the user community.Results: I present some of the most notable new features and extensions of {RAxML}, such as a substantial extension of substitution models and supported data types, the introduction of {SSE}3, {AVX} and {AVX}2 vector intrinsics, techniques for reducing the memory requirements of the code and a plethora of operations for conducting post-analyses on sets of trees. In addition, an up-to-date 50-page user manual covering all new {RAxML} options is available.Availability and implementation: The code is available under {GNU} {GPL} at https://github.com/stamatak/standard-{RAxML}.Contact:  alexandros.stamatakis@h-its.{orgSupplementary} information:  Supplementary data are available at Bioinformatics online.}
+      \field{day}{1}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{5}
+      \field{number}{9}
+      \field{shortjournal}{Bioinformatics}
+      \field{shorttitle}{{RAxML} version 8}
+      \field{title}{{RAxML} version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies}
+      \field{urlday}{28}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{30}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1312\bibrangedash 1313}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btu033
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/aidatraore/Zotero/storage/GP6HXBTI/Stamatakis - 2014 - RAxML version 8 a tool for phylogenetic analysis and post-analysis of large phylogenies.pdf:application/pdf;Snapshot:/Users/aidatraore/Zotero/storage/JU6ZZDVA/btu033.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/bioinformatics/btu033
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/bioinformatics/btu033
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

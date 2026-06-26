@@ -1,6 +1,17 @@
 ---
 title: "Methods"
-bibliography: rmd/references.bib
+bibliography: references.bib
 ---
 
-Write your Methods here! 
+#### Cadre de l’étude 
+La région de Djôrô (ex Sud-Ouest) est l’une des 17 régions administratives du Burkina Faso. Située dans la partie Sud-Ouest du pays, elle  couvre environ 16 317 Km² et partage des frontières avec le Ghana et la Côte d’Ivoire. Elle comprend 4 provinces: la Bougouriba, le Ioba, le Noumbiel et le Poni et 28 départements. Elle compte 4 communes urbaines, 24 communes rurales et 1084 villages. La population totale estimée en 2024 est de 986 700  habitants avec une densité de 61 hab./km2 (wikipedia) CARTE DU BF.
+
+#### Type et période de l’étude
+Il s’agissait d’une étude rétrospective utilisant les données issues du projet ANRS REVERSO 1 mené en 2020 dans les ménages de  la région de Djôrô (ex Sud-Ouest) Burkina Faso.
+
+#### Population d’étude et Diagnostic du VHC
+L’etude a été menée auprès des ménages (foyer) dans la région de Djôrô. Le dépistage de l’hépatite C a été réalisé à l’aide des tests de diagnostic rapides (TDR) de détection des anticorps anti-VHC. Ce test a été réalisé sur place par les agents préleveurs de l’équipe d’enquête qui se déplaçaient dans les ménages pour l’étude. Le test a été réalisé suivant les procédures de l’étude en conformité avec les instructions du fabricant (cf. SOP Dépistage VHC par TDR). Les sujets dépistés anti-VHC+ par TDR,  un prélèvement  de type Whatman 903 (Dried Blood Spots (DBS)) a été utilisé. Le prélèvement DBS s’est fait au bout du doigt pour les adultes et enfants de plus de 2 ans et au talon pour les enfants de moins de 2 ans. Chez chaque sujet, au moins trois gouttes de sang (idéalement 5 gouttes) ont été recueillies sur une carte de papier buvard en raison d’une goutte dans chaque cercle de la carte. Après le prélèvement, les gouttes de sang ont été séchées à température ambiante pendant au moins trois heures en plaçant horizontalement la carte DBS sur une surface plane.Tous les DBS anti-VHC+ reçus au Laboratoire de Virologie du Centre MURAZ ont été immédiatement stockés à -20°C dès leur réception en attendant la réalisation du test de confirmation VHC. Aussi, après analyses, les DBS sont immédiatement remis en conservation à -20°C. L’ensemble de ces procédures sont décrites dans les SOP de laboratoire de l’étude.
+
+
+
+

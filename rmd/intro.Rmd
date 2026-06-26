@@ -1,8 +1,11 @@
 ---
 title: "Introduction"
-bibliography: rmd/references.bib
+output:
+  pdf_document:
+    citation_package: biblatex
+bibliography: references.bib
 ---
 
 Write your background/introduction here!
 
-You can cite papers from Zotero using [@olmstead2015] for example.
+You can cite papers from Zotero using [@olmstead2015] for example. [@4séroty]

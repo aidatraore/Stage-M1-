@@ -1,17 +1,17 @@
-############################################################
-########## Nettoyage Sanger + Quasi-Espèces VHC ############
-########## Version finale v8                    ############
-############################################################
+#####################################################################################
+########## Nettoyage du chromatogramme Sanger + Diversité virale du  VHC ############
+#####################################################################################
+#####################################################################################
 #
-# PIPELINE :
+# PIPELINE : prétraitement d'un chromatogramme Sanger pour analyse intra-familiale du VHC
 #   fichier .ab1
 #       │
 #       ▼
-#   trimmed_seq   : séquence brute trimmée (Q30 fenêtre glissante)
+#   trimmed_seq   : séquence brute trimmée (Q20fichier)
 #       │
 #       ├──→ primary_seq   : base dominante (A/C/G/T UNIQUEMENT — jamais N, jamais IUPAC)
 #       │                    min_height=0 → on tranche toujours sur le signal max
-#       │                    identique à sangerseqR primarySeq()
+#       │                    identique à sangerseqR primarySeq() dans le logiciel R
 #       │
 #       ├──→ secondary_seq : 2ème signal le plus fort
 #       │                    si N dans trimmed et égalité → code IUPAC
@@ -19,7 +19,7 @@
 #       │
 #       └──→ consensus_seq : pool primary + secondary → code IUPAC
 #
-############################################################
+#####################################################################################
 
 from Bio import SeqIO
 import matplotlib
@@ -28,9 +28,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import sys, os
 
-############################################################
+#####################################################################################
 # 1) ARGUMENTS
-############################################################
+#####################################################################################
 input_ab1  = sys.argv[1]
 prefix     = sys.argv[2]
 plotprefix = sys.argv[3]
@@ -71,14 +71,10 @@ else:
 max_channel_len = min(len(A), len(C), len(G), len(T))
 
 ############################################################
-# 3) Trimming Q20 par fenêtre glissante
+# 3) Trimming Q20 
 ############################################################
 def find_trim_bounds(qual, threshold=20):
-    """
-    Trimming par fenêtre glissante :
-    avance tant que la qualité MOYENNE sur la fenêtre < threshold.
-    Plus robuste que position par position pour Q20.
-    """
+    
     start = 0
     while start < len(qual) and qual[start] < threshold:
         start += 1
@@ -321,7 +317,7 @@ for i in range(trim_len):
         variant_details.append((i, p, s, qe_ratios_all[i]))
 
 nb_valid = sum(1 for b in primary_seq if b in valid_bases)
-diffs    = sum(diff_positions)
+diffs    = sum(diff_positions) 
 ratio_qe = diffs / nb_valid * 100 if nb_valid > 0 else 0.0
 
 print(f"[INFO] Quasi-espèces : {diffs} / {nb_valid} bp ({ratio_qe:.2f}%)")
