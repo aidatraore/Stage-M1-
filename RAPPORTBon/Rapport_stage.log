@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.7)  26 JUN 2026 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.7)  3 JUL 2026 18:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1273,27 +1273,27 @@ Package biblatex Info: ... file 'Rapport_stage.bbl' found.
 (./Rapport_stage.bbl)
 Package biblatex Info: Reference section=0 on input line 164.
 Package biblatex Info: Reference segment=0 on input line 164.
-<Logo_Bioinfo.png, id=158, 268.75406pt x 264.23718pt>
+<Logo_Bioinfo.png, id=157, 268.75406pt x 264.23718pt>
 File: Logo_Bioinfo.png Graphic file (type png)
 <use Logo_Bioinfo.png>
 Package pdftex.def Info: Logo_Bioinfo.png  used on input line 173.
 (pdftex.def)             Requested size: 86.81502pt x 85.35826pt.
-<logo_fds_rond.png, id=160, 467.346pt x 465.9006pt>
+<logo_fds_rond.png, id=159, 467.346pt x 465.9006pt>
 File: logo_fds_rond.png Graphic file (type png)
 <use logo_fds_rond.png>
 Package pdftex.def Info: logo_fds_rond.png  used on input line 174.
 (pdftex.def)             Requested size: 85.61618pt x 85.35826pt.
-<logo_UM.png, id=161, 199.2243pt x 199.2243pt>
+<logo_UM.png, id=160, 199.2243pt x 199.2243pt>
 File: logo_UM.png Graphic file (type png)
 <use logo_UM.png>
 Package pdftex.def Info: logo_UM.png  used on input line 175.
 (pdftex.def)             Requested size: 85.35774pt x 85.35826pt.
-<Inserm.png, id=162, 1204.5pt x 674.52pt>
+<Inserm.png, id=161, 1204.5pt x 674.52pt>
 File: Inserm.png Graphic file (type png)
 <use Inserm.png>
 Package pdftex.def Info: Inserm.png  used on input line 179.
 (pdftex.def)             Requested size: 113.81102pt x 63.73012pt.
-<logo-PCCEI.jpg, id=163, 803.0pt x 787.94376pt>
+<logo-PCCEI.jpg, id=162, 803.0pt x 787.94376pt>
 File: logo-PCCEI.jpg Graphic file (type jpg)
 <use logo-PCCEI.jpg>
 Package pdftex.def Info: logo-PCCEI.jpg  used on input line 180.
@@ -1365,7 +1365,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.265 \clearpage
+l.272 \clearpage
                  [1
 
 ] (./Rapport_stage.lot)
@@ -1385,134 +1385,138 @@ l.265 \clearpage
 [3
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.294  \newpage
+l.312  \newpage
                 [1
 
 ]
-<./Image/partieVHC.png, id=272, 607.26875pt x 343.2825pt>
+<./Image/partieVHC.png, id=285, 607.26875pt x 343.2825pt>
 File: ./Image/partieVHC.png Graphic file (type png)
 <use ./Image/partieVHC.png>
-Package pdftex.def Info: ./Image/partieVHC.png  used on input line 309.
+Package pdftex.def Info: ./Image/partieVHC.png  used on input line 326.
 (pdftex.def)             Requested size: 455.24411pt x 257.35123pt.
 
 
 [2 <./Image/partieVHC.png>]
-<./Image/VHC_genome.png, id=288, 1128.215pt x 729.72626pt>
+<./Image/VHC_genome.png, id=301, 1128.215pt x 729.72626pt>
 File: ./Image/VHC_genome.png Graphic file (type png)
 <use ./Image/VHC_genome.png>
-Package pdftex.def Info: ./Image/VHC_genome.png  used on input line 325.
+Package pdftex.def Info: ./Image/VHC_genome.png  used on input line 342.
 (pdftex.def)             Requested size: 455.24411pt x 294.44632pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 
 
 [3 <./Image/VHC_genome.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 345--347
+Underfull \hbox (badness 10000) in paragraph at lines 362--364
 
  []
 
 
 
 [4]
+<./Image/carteburkina.png, id=336, 5721.375pt x 4567.0625pt>
+File: ./Image/carteburkina.png Graphic file (type png)
+<use ./Image/carteburkina.png>
+Package pdftex.def Info: ./Image/carteburkina.png  used on input line 378.
+(pdftex.def)             Requested size: 523.52794pt x 417.84729pt.
 
-[5]
-
-[6{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}]
-<./Image/image1.png, id=333, 958.125pt x 894.396pt>
-File: ./Image/image1.png Graphic file (type png)
-<use ./Image/image1.png>
-Package pdftex.def Info: ./Image/image1.png  used on input line 362.
-(pdftex.def)             Requested size: 455.24411pt x 424.96533pt.
-
-
-[7 <./Image/image1.png>]
-Overfull \hbox (24.20532pt too wide) in paragraph at lines 387--388
-[]\T1/cmr/m/n/12 Décrire les ca-rac-té-ris-tiques socio-démographiques des deux
- groupes (foyers et contrôles) ; 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
-
+Overfull \hbox (68.28383pt too wide) in paragraph at lines 378--379
+ [][] 
  []
 
 
 
-[8]
-<./Image/processu.png, id=347, 2815.51875pt x 1515.6625pt>
+[5 <./Image/carteburkina.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+
+ []
+
+
+
+[6]
+
+[7]
+<./Image/processu.png, id=354, 3872.4675pt x 2457.18pt>
 File: ./Image/processu.png Graphic file (type png)
 <use ./Image/processu.png>
-Package pdftex.def Info: ./Image/processu.png  used on input line 401.
-(pdftex.def)             Requested size: 455.24411pt x 245.05493pt.
+Package pdftex.def Info: ./Image/processu.png  used on input line 412.
+(pdftex.def)             Requested size: 455.24411pt x 288.84991pt.
 
 
-[9 <./Image/processu.png>]
-<./Image/Capture.png, id=356, 530.58224pt x 361.95226pt>
-File: ./Image/Capture.png Graphic file (type png)
-<use ./Image/Capture.png>
-Package pdftex.def Info: ./Image/Capture.png  used on input line 410.
-(pdftex.def)             Requested size: 455.24411pt x 310.56592pt.
+[8 <./Image/processu.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 453--457
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--421
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
 
 
-[10 <./Image/Capture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 423--426
-
- []
-
-
-
-[11]
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 442--446
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
-
- []
-
-
-
-[13]
-<./Image/pipeline.png, id=388, 6268.41875pt x 4215.75pt>
+[10]
+<./Image/pipeline.png, id=379, 7979.8125pt x 7004.1675pt>
 File: ./Image/pipeline.png Graphic file (type png)
 <use ./Image/pipeline.png>
-Package pdftex.def Info: ./Image/pipeline.png  used on input line 456.
-(pdftex.def)             Requested size: 455.24411pt x 306.13258pt.
+Package pdftex.def Info: ./Image/pipeline.png  used on input line 467.
+(pdftex.def)             Requested size: 509.87117pt x 447.48502pt.
 
-Overfull \hbox (9.67538pt too wide) in paragraph at lines 462--462
+Overfull \hbox (54.62706pt too wide) in paragraph at lines 467--468
+ [][] 
+ []
+
+
+Overfull \hbox (9.0889pt too wide) in paragraph at lines 472--472
 |[]\T1/cmr/bx/n/14.4 Hétérogénéité gé-né-tique intra-hôte (Di-ver-sité vi-rale)
  du VHC
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
-[14 <./Image/pipeline.png>]
+ []
+
+
+
+[11 <./Image/pipeline.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+
+ []
+
 \g__tcobox_out_iow=\write9
 \openout9 = `Rapport_stage.listing'.
-
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
@@ -1521,212 +1525,255 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 (./Rapport_stage.listing)
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
 
-[15]
+ []
+
+
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
+
+ []
+
 \openout9 = `Rapport_stage.listing'.
 
- (./Rapport_stage.listing)
-Overfull \hbox (7.24413pt too wide) in paragraph at lines 522--522
+(./Rapport_stage.listing)
+
+[13]
+Overfull \hbox (7.24413pt too wide) in paragraph at lines 541--541
 []|\T1/cmtt/m/n/12 alignedFC.fasta| 
  []
 
 
 
-[16]
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
-[17]
+ []
+
+
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
+
+ []
+
+<./Image/foyer.png, id=431, 4534.9425pt x 2908.8675pt>
+File: ./Image/foyer.png Graphic file (type png)
+<use ./Image/foyer.png>
+Package pdftex.def Info: ./Image/foyer.png  used on input line 598.
+(pdftex.def)             Requested size: 455.24411pt x 291.96904pt.
+<./Image/contrle.png, id=432, 3276.24pt x 2156.055pt>
+File: ./Image/contrle.png Graphic file (type png)
+<use ./Image/contrle.png>
+Package pdftex.def Info: ./Image/contrle.png  used on input line 606.
+(pdftex.def)             Requested size: 341.43307pt x 224.66527pt.
+
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
+
+ []
+
+
+
+[17 <./Image/foyer.png> <./Image/contrle.png>]
+Overfull \hbox (5.32083pt too wide) in paragraph at lines 627--682
+ [][] 
+ []
+
+
 
 [18]
 
 [19]
-<./Image/foyer.png, id=443, 3779.11874pt x 2424.05624pt>
-File: ./Image/foyer.png Graphic file (type png)
-<use ./Image/foyer.png>
-Package pdftex.def Info: ./Image/foyer.png  used on input line 573.
-(pdftex.def)             Requested size: 218.51521pt x 140.1478pt.
-<./Image/contrle.png, id=444, 2674.99374pt x 1741.50626pt>
-File: ./Image/contrle.png Graphic file (type png)
-<use ./Image/contrle.png>
-Package pdftex.def Info: ./Image/contrle.png  used on input line 580.
-(pdftex.def)             Requested size: 218.51521pt x 142.2464pt.
-
-
-LaTeX Warning: Reference `tab: caracteristiques' on page 20 undefined on input 
-line 592.
-
-
-
-[20 <./Image/foyer.png> <./Image/contrle.png>]
-
-[21]
 <./Image/diversitviralFoyer.png, id=458, 578.16pt x 433.62pt>
 File: ./Image/diversitviralFoyer.png Graphic file (type png)
 <use ./Image/diversitviralFoyer.png>
-Package pdftex.def Info: ./Image/diversitviralFoyer.png  used on input line 632
+Package pdftex.def Info: ./Image/diversitviralFoyer.png  used on input line 693
 .
-(pdftex.def)             Requested size: 523.52794pt x 392.6628pt.
+(pdftex.def)             Requested size: 500.77129pt x 375.579pt.
 
-Overfull \hbox (68.28383pt too wide) in paragraph at lines 632--633
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 693--694
  [][] 
  []
 
 
-LaTeX Warning: Reference `14' on page 22 undefined on input line 633.
 
-
-LaTeX Warning: Reference `14' on page 22 undefined on input line 633.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Image/diversiteviraleControle.pdf, id=460, 578.16pt x 433.62pt>
+[20 <./Image/diversitviralFoyer.png>]
+<./Image/diversiteviraleControle.pdf, id=467, 578.16pt x 433.62pt>
 File: ./Image/diversiteviraleControle.pdf Graphic file (type pdf)
 <use ./Image/diversiteviraleControle.pdf>
 Package pdftex.def Info: ./Image/diversiteviraleControle.pdf  used on input lin
-e 642.
+e 705.
 (pdftex.def)             Requested size: 500.77129pt x 375.579pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 642--643
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 705--706
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-
-[22]
-<./Image/diversitefoyercontrole.png, id=466, 578.16pt x 433.62pt>
+[21 <./Image/diversiteviraleControle.pdf>]
+<./Image/diversitefoyercontrole.png, id=480, 578.16pt x 433.62pt>
 File: ./Image/diversitefoyercontrole.png Graphic file (type png)
 <use ./Image/diversitefoyercontrole.png>
 Package pdftex.def Info: ./Image/diversitefoyercontrole.png  used on input line
- 653.
-(pdftex.def)             Requested size: 537.18471pt x 402.91176pt.
+ 716.
+(pdftex.def)             Requested size: 500.77129pt x 375.579pt.
 
-Overfull \hbox (81.9406pt too wide) in paragraph at lines 653--656
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 716--717
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 662--663
-
- []
-
-
-
-[23]
-<./Image/boxplot_intra_inter.png, id=472, 578.16pt x 433.62pt>
-File: ./Image/boxplot_intra_inter.png Graphic file (type png)
-<use ./Image/boxplot_intra_inter.png>
-Package pdftex.def Info: ./Image/boxplot_intra_inter.png  used on input line 67
-3.
-(pdftex.def)             Requested size: 455.24411pt x 341.43124pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[24]
-<./Image/heatmap_distancesfoyerprimary2.png, id=478, 569.0058pt x 512.03294pt>
-File: ./Image/heatmap_distancesfoyerprimary2.png Graphic file (type png)
-<use ./Image/heatmap_distancesfoyerprimary2.png>
-Package pdftex.def Info: ./Image/heatmap_distancesfoyerprimary2.png  used on in
-put line 682.
-(pdftex.def)             Requested size: 523.52794pt x 471.10727pt.
-
-Overfull \hbox (68.28383pt too wide) in paragraph at lines 682--683
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Image/evenementtransmission.png, id=480, 578.16pt x 433.62pt>
+<./Image/evenementtransmission.png, id=482, 578.16pt x 433.62pt>
 File: ./Image/evenementtransmission.png Graphic file (type png)
 <use ./Image/evenementtransmission.png>
 Package pdftex.def Info: ./Image/evenementtransmission.png  used on input line 
-693.
+727.
 (pdftex.def)             Requested size: 523.52794pt x 392.6628pt.
 
-Overfull \hbox (68.28383pt too wide) in paragraph at lines 693--694
+Overfull \hbox (68.28383pt too wide) in paragraph at lines 727--728
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22 <./Image/diversitefoyercontrole.png>]
+
+[23 <./Image/evenementtransmission.png>]
+<./Image/boxplot_intra_inter.png, id=495, 578.16pt x 433.62pt>
+File: ./Image/boxplot_intra_inter.png Graphic file (type png)
+<use ./Image/boxplot_intra_inter.png>
+Package pdftex.def Info: ./Image/boxplot_intra_inter.png  used on input line 74
+4.
+(pdftex.def)             Requested size: 500.77129pt x 375.579pt.
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 744--745
+ [][] 
+ []
+
+<./Image/heatmap_distancesfoyerprimary2.png, id=497, 569.0058pt x 512.03294pt>
+File: ./Image/heatmap_distancesfoyerprimary2.png Graphic file (type png)
+<use ./Image/heatmap_distancesfoyerprimary2.png>
+Package pdftex.def Info: ./Image/heatmap_distancesfoyerprimary2.png  used on in
+put line 753.
+(pdftex.def)             Requested size: 505.32123pt x 454.72343pt.
+
+Overfull \hbox (50.07712pt too wide) in paragraph at lines 753--754
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
+
+ []
 
 
 
-[25]
-<./Image/phylogenie_VHCfoyerprimDist.png, id=488, 3011.25pt x 2208.25pt>
+[24 <./Image/boxplot_intra_inter.png>]
+
+[25 <./Image/heatmap_distancesfoyerprimary2.png>]
+<./Image/phylogenie_VHCfoyerprimDist.png, id=508, 3011.25pt x 2208.25pt>
 File: ./Image/phylogenie_VHCfoyerprimDist.png Graphic file (type png)
 <use ./Image/phylogenie_VHCfoyerprimDist.png>
 Package pdftex.def Info: ./Image/phylogenie_VHCfoyerprimDist.png  used on input
- line 707.
+ line 765.
 (pdftex.def)             Requested size: 537.18471pt x 393.92986pt.
 
-Overfull \hbox (81.9406pt too wide) in paragraph at lines 707--708
+Overfull \hbox (81.9406pt too wide) in paragraph at lines 765--766
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Image/phylogenie_VHCfoyerprimaryRAxml.png, id=489, 3011.25pt x 2208.25pt>
+<./Image/phylogenie_VHCfoyerprimaryRAxml.png, id=510, 3011.25pt x 2208.25pt>
 File: ./Image/phylogenie_VHCfoyerprimaryRAxml.png Graphic file (type png)
 <use ./Image/phylogenie_VHCfoyerprimaryRAxml.png>
 Package pdftex.def Info: ./Image/phylogenie_VHCfoyerprimaryRAxml.png  used on i
-nput line 715.
-(pdftex.def)             Requested size: 546.29153pt x 400.6015pt.
+nput line 773.
+(pdftex.def)             Requested size: 537.18471pt x 393.92986pt.
 
-Overfull \hbox (91.04742pt too wide) in paragraph at lines 715--716
+Overfull \hbox (81.9406pt too wide) in paragraph at lines 773--774
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
+[26 <./Image/phylogenie_VHCfoyerprimDist.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
 
+ []
 
-[26]
-<./Image/phylogenie_foyer_controleDist.png, id=496, 3011.25pt x 2208.25pt>
+<./Image/phylogenie_foyer_controleDist.png, id=518, 3011.25pt x 2208.25pt>
 File: ./Image/phylogenie_foyer_controleDist.png Graphic file (type png)
 <use ./Image/phylogenie_foyer_controleDist.png>
 Package pdftex.def Info: ./Image/phylogenie_foyer_controleDist.png  used on inp
-ut line 729.
+ut line 784.
 (pdftex.def)             Requested size: 537.18471pt x 393.92986pt.
 
-Overfull \hbox (81.9406pt too wide) in paragraph at lines 729--730
+Overfull \hbox (81.9406pt too wide) in paragraph at lines 784--785
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Image/phylogenie_VHCfoyercontroleRAxml.png, id=497, 3011.25pt x 2208.25pt>
+
+
+[27 <./Image/phylogenie_VHCfoyerprimaryRAxml.png>]
+
+[28 <./Image/phylogenie_foyer_controleDist.png>]
+<./Image/phylogenie_VHCfoyercontroleRAxml.png, id=531, 3011.25pt x 2208.25pt>
 File: ./Image/phylogenie_VHCfoyercontroleRAxml.png Graphic file (type png)
 <use ./Image/phylogenie_VHCfoyercontroleRAxml.png>
 Package pdftex.def Info: ./Image/phylogenie_VHCfoyercontroleRAxml.png  used on 
-input line 737.
+input line 796.
 (pdftex.def)             Requested size: 537.18471pt x 393.92986pt.
 
-Overfull \hbox (81.9406pt too wide) in paragraph at lines 737--738
+Overfull \hbox (81.9406pt too wide) in paragraph at lines 796--797
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <./Image/phylogenie_VHCfoyercontroleRAxml.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 805--806
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 808--809
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 811--812
+
+ []
 
 
 
-[27]
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 823--824
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--826
+
+ []
+
+
+
+[31]
 
 [4]
-Overfull \hbox (117.66148pt too wide) in paragraph at lines 763--763
+Overfull \hbox (117.66148pt too wide) in paragraph at lines 836--836
 \T1/cmr/m/n/12 In : \T1/cmr/m/it/12 Health Science Re-ports \T1/cmr/m/n/12 5.5 
 (2022). _eprint : https ://on-li-ne-li-brary.wiley.com/doi/pdf/10.1002/hsr2.719
 ,
@@ -1736,25 +1783,7 @@ Overfull \hbox (117.66148pt too wide) in paragraph at lines 763--763
 
 [5]
 
-[6 <./Image/diversitviralFoyer.png>]
-
-[7 <./Image/diversiteviraleControle.pdf>]
-
-[8 <./Image/diversitefoyercontrole.png>]
-
-[9 <./Image/boxplot_intra_inter.png>]
-
-[10 <./Image/heatmap_distancesfoyerprimary2.png>]
-
-[11 <./Image/evenementtransmission.png>]
-
-[12 <./Image/phylogenie_VHCfoyerprimDist.png>]
-
-[13 <./Image/phylogenie_VHCfoyerprimaryRAxml.png>]
-
-[14 <./Image/phylogenie_foyer_controleDist.png>]
-
-[15 <./Image/phylogenie_VHCfoyercontroleRAxml.png>] (./Rapport_stage.aux)
+[6] (./Rapport_stage.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1764,19 +1793,24 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Rapport_stage.out' has not changed.
-(rerunfilecheck)             Checksum: 8DA49E0B34958B98DD506C3615C94972;6340.
+(rerunfilecheck)             Checksum: CC3F665A0BB467C4DE12F36B1C7333F3;5621.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Rapport_stage
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Rapport_stage.run.xml'.
 \openout1 = `Rapport_stage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40496 strings out of 473190
- 805918 string characters out of 5715800
- 1674497 words of memory out of 5000000
- 63044 multiletter control sequences out of 15000+600000
- 577434 words of font info for 75 fonts, out of 8000000 for 9000
+ 40527 strings out of 473190
+ 807408 string characters out of 5715800
+ 1675487 words of memory out of 5000000
+ 63067 multiletter control sequences out of 15000+600000
+ 577097 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,96p,2576b,1861s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,96p,2249b,1861s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
@@ -1801,10 +1835,10 @@ onts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2025/texmf-dist/fonts
 /type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
 ype1/public/cm-super/sftt1200.pfb>
-Output written on Rapport_stage.pdf (44 pages, 7091519 bytes).
+Output written on Rapport_stage.pdf (39 pages, 9483430 bytes).
 PDF statistics:
- 733 PDF objects out of 1000 (max. 8388607)
- 566 compressed objects within 6 object streams
- 127 named destinations out of 1000 (max. 500000)
- 504 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 744 PDF objects out of 1000 (max. 8388607)
+ 586 compressed objects within 6 object streams
+ 137 named destinations out of 1000 (max. 500000)
+ 499 words of extra memory for PDF output out of 10000 (max. 10000000)
 
