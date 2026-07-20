@@ -1,0 +1,965 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\addto\captionsfrench{%
+  \renewcommand{\tablename}{Tableau}
+}
+\usepackage{graphicx}
+\usepackage[top=3cm, bottom=3cm, left=3.5cm, right=3.5cm, marginparwidth=2.5cm]{geometry}
+\usepackage{amsmath, amssymb} % Pour formules
+\usepackage{booktabs}        % Pour jolis tableaux
+\usepackage{hyperref}        % Pour liens cliquables
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{csquotes}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage[useregional]{datetime2}
+\usepackage{float}
+
+\usepackage[table]{xcolor}
+
+
+
+\usepackage{tocloft}
+\usepackage{listings}
+
+\lstdefinestyle{bashstyle}{
+    language=bash,
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{gray!10},
+    frame=single,
+    breaklines=true,
+    columns=fullflexible,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!50!black},
+    showstringspaces=false
+}
+
+\usepackage[most]{tcolorbox}
+
+\newtcblisting{terminal}{
+    listing only,
+    colback=black!3,
+    colframe=black!60,
+    listing options={
+        language=bash,
+        basicstyle=\ttfamily\small,
+        breaklines=true
+    }
+}
+
+\renewcommand{\cftfigpresnum}{Figure~}
+\setlength{\cftfignumwidth}{6em}
+
+\usepackage{subcaption}
+
+
+% Section en chiffres romains
+\renewcommand{\thesection}{\Roman{section}}
+
+% Sous-sections : I.1, I.2, ...
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\setcounter{tocdepth}{2}    % table des matières jusqu'aux subsection seulement
+
+
+% Style de la section
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\titleformat{\section}
+  {\color{black}\LARGE\bfseries} % style du titre
+  {\thesection}                 % numéro de section
+  {1em}                         % espace numéro–titre
+  {}                            % avant le titre
+
+% Style de la sous-section
+\titleformat{\subsection}
+{\normalfont\large\bfseries}
+{\thesubsection}
+{1em}
+{}
+
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+%informations pieds de page
+\fancypagestyle{plain}{%
+	\fancyhf{}
+	\renewcommand{\headrulewidth}{0pt}  % Supprime la ligne en haut
+	\fancyfoot[C]{\thepage} % Numéro de page au centre
+	\renewcommand{\footrulewidth}{0.4pt}
+	\fancyfoot[L]{\textbf{\textit{Marietou Aïda TRAORE}}}
+	\fancyfoot[R]{\textbf{\textit{Rapport de Stage M1}}}
+}
+
+
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\addbibresource{Reference.bib} % ton fichier exporté
+
+
+% Nouveau compteur pour les sections personnalisés
+% \newcounter{customchap}
+% \newcommand{\customchapter}[1]{%
+	% \refstepcounter{customchap}%
+	% \setcounter{chapter}{\value{customchap}} % Synchroniser pour les sous-sections
+	% \addcontentsline{toc}{chapter}{\protect\numberline{\thecustomchap}#1}%
+	% \vspace{2cm}
+	% \no indent
+	% \begin{tikzpicture}
+		% Numéro grand et bleu à gauche
+		% \node[anchor=base west, text=gray!90, font=\fontsize{60}{60}\bfseries] at (0,-0.15) {\thecustomchap};
+		
+		% Titre au-dessus du trait
+		% \node[anchor=east, text=blue, font=\huge\bfseries, align=right, text width=12cm] at (16,1.0) {#1};
+		
+		% Trait horizontal
+		% \draw[line width=4pt, color=blue] (2.5,0) -- (\linewidth,0);
+	% \end{tikzpicture}
+	% \vspace{1cm}
+	% \setcounter{section}{0}
+	% \setcounter{subsection}{0}
+% }
+\usepackage{chngcntr}
+\counterwithout{table}{section}
+\counterwithout{figure}{section}
+
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{tabularx}
+
+% Configuration de hyperref
+
+\hypersetup{
+	colorlinks=true,   % Activer les couleurs pour les liens
+	linkcolor=blue,    % Couleur pour \ref (sections, figures, tableaux, etc.)
+	citecolor=blue,    % Couleur pour les citations (si applicable)
+	urlcolor=blue,     % Couleur pour les URL (si applicable)
+	filecolor=blue     % Couleur pour les liens vers fichiers (si applicable)
+}
+%couleur de la table de matieres
+\makeatletter
+\pretocmd{\l@chapter}{\hypersetup{linkcolor=black}}{}{}
+\apptocmd{\l@chapter}{\hypersetup{linkcolor=blue}}{}{}
+\pretocmd{\l@section}{\hypersetup{linkcolor=black}}{}{}
+\apptocmd{\l@section}{\hypersetup{linkcolor=blue}}{}{}
+\pretocmd{\l@subsection}{\hypersetup{linkcolor=black}}{}{}
+\apptocmd{\l@subsection}{\hypersetup{linkcolor=blue}}{}{}
+\pretocmd{\l@subsubsection}{\hypersetup{linkcolor=black}}{}{}
+\apptocmd{\l@subsubsection}{\hypersetup{linkcolor=blue}}{}{}
+
+% Liste des figures
+\pretocmd{\l@figure}{\hypersetup{linkcolor=black}}{}{}
+\apptocmd{\l@figure}{\hypersetup{linkcolor=blue}}{}{}
+
+
+% Liste des tableaux
+\usepackage{tocloft}
+
+\renewcommand{\cfttabpresnum}{Tableau~}
+\renewcommand{\cfttabaftersnum}{\quad}
+\settowidth{\cfttabnumwidth}{Tableau~10\quad}
+\pretocmd{\l@table}{\hypersetup{linkcolor=black}}{}{}
+\apptocmd{\l@table}{\hypersetup{linkcolor=blue}}{}{}
+\makeatother
+
+
+\begin {document}
+% Redéfinir les titres des listes pour les rendre vides
+	\renewcommand{\listfigurename}{}
+	\renewcommand{\listtablename}{}
+	\thispagestyle{empty}
+
+\begin{titlepage}
+\begin{center}
+	  
+	  \includegraphics[height=3cm]{Logo_Bioinfo.png}\hspace{0.5cm}
+	  \includegraphics[height=3cm]{logo_fds_rond.png}\hspace{0.5cm}
+	  \includegraphics[height=3cm]{logo_UM.png}\hspace{0.5cm} 
+      \\
+       \vspace{0.5cm} % espace entre les lignes
+       % Deuxième ligne
+       \includegraphics[width=4cm]{Inserm.png} \hspace{0.5cm}
+        \includegraphics[width=3cm]{logo-PCCEI.jpg}
+        
+    \vspace{0.5cm} 
+{\Large Master Bioinformatique\\[1cm]} 
+
+{\large HAU805I : Rapport de stage M1 \\[0.7cm]}
+
+% Titre
+\rule{\linewidth}{0.5mm} \\[0.4cm]
+{ \Large \bfseries Description des foyers intra-familiaux d’infection par le virus de l’hépatite C au Burkina Faso. \\[0.4cm] }
+\rule{\linewidth}{0.5mm} \\[1.5cm]
+
+% Auteur et encadrants
+\noindent
+\begin{minipage}{0.4\textwidth}
+  \begin{flushleft} \large
+    \emph{Autrice:}\\
+    Marietou Aïda  \textsc{TRAORE}\\
+  \end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+  \begin{flushright} \large
+    \emph{Encadrement scientifique:} \\
+    Jean-Pierre \textsc{MOLES,}\\
+	\emph{Tutrice pédagogique :} \\
+    Sèverine \textsc{BERARD}\\
+  \end{flushright}
+ 
+\end{minipage} 
+\\ 
+ \vspace{1cm} 
+ {\large\bfseries Période du stage : du \DTMdate{2026-04-27} au \DTMdate{2026-07-02}} \\
+\vfill
+
+% Bas de page
+{\large Année Universitaire 2025 - 2026 } \\
+\vspace{0.5cm} 
+{\large [Version finale]}
+
+\end{center}
+\end{titlepage}
+%%%%%%%%%%%%%%%%%  generer la table des matière %%%%%%%%%
+\onehalfspacing
+	
+	\newgeometry{top=2.5cm ,bottom=2.5cm,left=2.5cm,right=2.5cm}
+	\newpage
+	\pagenumbering{Roman}
+	\pagestyle{plain}
+			
+\cleardoublepage	
+\tableofcontents
+\thispagestyle{empty}
+%%%%%%%%%% table sigle et abreviation%%%%%%%%%%%%%
+\cleardoublepage
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+\phantomsection
+\addcontentsline{toc}{section}{SIGLES ET ABRÉVIATIONS}
+
+\textbf{\huge SIGLES ET ABRÉVIATIONS}
+
+\vspace{1.5cm}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{p{3cm} c p{10cm}}
+
+AAD & : & Antiviraux à Action Direct \\ 
+ADN & : & Acide désoxyribonucléique \\
+ARN & : & Acide ribonucléique \\
+DBS & : &  Dried Blood Spots \\
+ddNTP & : & Didésoxynucléotides Triphosphates\\
+dNTP & : & Désoxynucléotides Triphosphates\\
+EDS & : & Enquêtes Démographique et de Santé \\
+HSH & : & Hommes ayant des rapports Sexuels avec des Hommes\\
+HVR& : & Régions Hyper-Variables \\
+IIQ & : & Interval Inter-Quartile \\
+INSD &: & Institut National de la Statistique et de la Démographie \\
+OMS & : & Organisation Mondiale de la Santé \\
+ORF & : & Open Reading Frame \\
+PCR &: & Polymerase Chain Reaction \\
+PLVIH & : & Personne Vivant avec le VIH \\
+RT & : & Reverse Transcription \\
+SOP & : &  Procédure Opératoire Standardisée \\
+TDR & :  & Tests de Diagnostic Rapides \\
+TS & : &   Travailleuses du Sexe \\
+UDI & : & Usagers de drogue par injection \\
+VHC & : & Virus de l’hépatite C \\
+VIH & : & Virus de l'Immunodéficience Humaine \\
+ZD & : & Zone de Dénombrement \\
+ \end{tabular}
+%%%%%%%%%% liste des tableaux  %%%%%%%%%%%%%
+%\clearpage
+%\phantomsection
+%\addcontentsline{toc}{section}{LISTE DES TABLEAUX}
+
+%\textbf{\huge LISTE DES TABLEAUX}
+%\vspace{1.5cm}
+
+%\listoftables
+%%%%%%%%%% liste des figures  %%%%%%%%%%%%%
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{LISTE DES FIGURES}
+
+\textbf{\huge LISTE DES FIGURES}
+\vspace{1.5cm}
+
+\listoffigures
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%         Contenu du rapport           %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\section*{INTRODUCTION}
+\addcontentsline{toc}{section}{INTRODUCTION}
+
+L’hépatite est une inflammation du foie causée par divers virus infectieux ainsi que par des agents non infectieux. Cinq virus majeurs sont responsables de l’hépatite chez l’humain : A (VHA), B (VHB), C (VHC), D (VHD) et E (VHE) \cite{Hepatitisa}. Malgré leurs différences épidémiologiques et leurs modes de transmission, ces virus peuvent provoquer des atteintes hépatiques aiguës, parfois graves. Parmi eux, les virus des hépatites B et C constituent les formes les plus préoccupantes en raison de leur capacité à entraîner des infections chroniques, leurs rôles majeurs dans le développement de la cirrhose et du carcinome hépatocellulaire, ainsi que leurs impacts importants en santé publique mondiale \cite{Hepatitisa}.\\
+
+En 2013, les hépatites virales représentaient la septième cause de mortalité dans le monde, avec environ 1,4 million de décès par an liés aux formes aiguës, aux cirrhoses et aux cancers du foie. Près de la moitié de ces décès étaient attribués au VHC (48\%), 47\% au VHB, et le reste aux VHA et VHE. Chez les personnes vivant avec le VIH (PVVIH), les co-infections avec le VHC sont fréquentes, avec environ 2,9 millions de cas rapportés \cite{OrganisationMondialeSante,VIHSidaHepatite2025}. À l’échelle mondiale, on estime que 50 millions de personnes vivent avec le VHC et qu’environ 1 million de nouvelles infections surviennent chaque année. Les infections aiguës par le VHC sont généralement asymptomatiques et rarement mortelles. Environ 30\% des personnes infectées éliminent spontanément le virus dans les six mois suivant l’infection, tandis que 70\% évoluent vers une infection chronique. Parmi ces dernières, le risque de développer une cirrhose sur une période de 20 ans est estimé entre 15\% et 30\% \cite{Hepatitisb}. À ce jour, aucun vaccin n’est disponible contre ce virus, mais il peut être guéri grâce aux antiviraux à action directe (AAD), qui permettent d’éliminer le virus chez plus de 95\% des patients traités. Cependant, l’accès au diagnostic et au traitement reste limité \cite{Hepatitisa,Hepatitisb}. \\
+ 
+ 
+En Afrique de l’Ouest, entre 10 et 33 millions de personnes seraient infectées par le VHC, qui est responsable de 10 à 25\% des cancers du foie \cite{linganiChangingEpidemiologyHepatitis2020}. Le Burkina Faso est considéré comme un pays à prévalence intermédiaire à élevée, avec environ 720 000 personnes vivant avec une infection chronique. Chaque année, près de 900 décès sont attribués aux complications du VHC. Une étude nationale menée en 2010 a rapporté une séroprévalence de 3,6\% dans la population générale, avec une prévalence particulièrement élevée de 13,2\% dans la région du Sud-Ouest (actuellement appelée Djôrô), suggérant une dynamique épidémique active \cite{medaHepatitisVirusSeroprevalence2018}. \\
+ 
+ 
+ Dans ce contexte, une étude a été menée en 2020 dans cette région afin d’approfondir les investigations au niveau des ménages et d’identifier les facteurs expliquant cette forte prévalence. Des clusters de cas de VHC ont été observés au sein de ces ménages, soulevant la question d’une possible transmission intrafamiliale. Ainsi, notre question de recherche est la suivante : \textbf{la transmission du VHC peut-elle se produire entre individus au sein d’un même ménage?}. Pour répondre à cette question, nous présenterons dans un premier temps les définitions des concepts clés de l’étude. Nous aborderons ensuite le contexte de l’étude et du stage, puis la méthodologie utilisée pour le traitement et l’analyse des données. Enfin, nous présenterons les résultats obtenus.
+ 
+ 
+
+ \newpage 
+ 
+ \section{Définitions}
+  
+ \subsection {Généralité du Virus de l'Hépatie C}  
+ Dans les années 1970, l’hépatite C était appelée hépatites virales baptisées « non A non B ». Ce n'est qu’en 1989, que le virus responsable des hépatites  « non A non B »  fut découvert et est appelé le virus de l'hépatite C (VHC). Le nom scientifique du VHC est \textbf{\textit{Hepacivirus hominis}}, appartenant à la famille des \textbf{\textit{Flaviviridae}} et au genre \textbf{\textit{Hepacivirus}}. Il est de taille très petite avec un diamètre d’environ 60 nanomètres \cite{mennecierVirusLhepatiteMonhepatogastro2022,VirusLhepatite2025}.  Le virus du VHC est composé de 3 parties : 
+ \begin{itemize}
+ \item une enveloppe sur laquelle existe 2 types de glycoprotéines, E1 et E2, qui permet au virus de se fixer sur la cellule du foie (hépatocyte) avant d’y pénétrer; 
+  \item une coque constituée de protéines constituant une capside protéique, permettant de protéger le virus de l’extérieur;
+   \item une molécule d’acide ribonucléique (ARN) constitue le génome du virus et doit donc se transmettre en totalité ou en partie lors de la reproduction du virus (figure~\ref{fig:virusVHC});
+ \end{itemize}
+ 
+   \begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{./Image/partieVHC.png}
+\caption[Différentes parties du VHC] {Différentes parties du VHC: la partie violette représente l'enveloppe du VHC où à sa surface il y a deux glycoprotéines (E1,E2); à l'intérieur de l'enveloppe, le bleu correspond à la capside c'est une structure qui protège l'ARN; le jaune est l'ARN virale du VHC \cite{mennecierVirusLhepatiteMonhepatogastro2022}}
+\label{fig:virusVHC}
+\end{figure}
+ 
+ \subsubsection {Structure du génome du VHC}
+ 
+ Le génome du VHC est  un ARN monocaténaire linéaire de polarité positive d’environ 9,6 kb. Le génome se compose de trois parties: 
+ \begin{itemize}
+ \item une région 5’ non codante (5’UTR) qui est composée de 341 à 344 nucléotides, est structuré en quatre domaines tige boucle;
+ \item le cadre de lecture ouvert (ORF,Open Reading Frame) est de taille variable (9 024 à 9 111 nucléotides) selon les génotype.  La traduction du ORF code une polyprotéine qui est clivée co- et post-traductionnellement en dix protéines: protéines virales structurales (capside, E1 et E2), de p7 est une protéine qui semble jouer un rôle essentiel dans la morphogenèse du virus et des protéines non structurales (NS1, NS2, NS3, NS4A, NS4B, NS5A et NS5B);
+ \item une région 3’ non codante (3’UTR) présente une longueur variable de 200 à 235 nucléotides, elle est constituée (de 5’ en 3’) d’une région non traduite directement en aval de la protéine NS5B \cite{pawlotskyVirusLhepatite2002,VirusLhepatite2025} (figure~\ref{fig:structVHC}).
+ \end{itemize}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{./Image/VHC_genome.png}
+\caption[Structure du genome VHC] {Structure du génome VHC: les deux extrémités sont les régions non codantes (5’UTR et 3’UTR), le ORF est composé de deux parties, une partie structurale (violet claire) qui traduit des protéines capside (core), E1 et E2 (enveloppe) et une partie non structurale (rose claire) \cite{VirusLhepatite2025}.}
+\label{fig:structVHC}
+\end{figure}
+
+ \subsubsection {Génotypes et modes de transmissions du VHC}
+ 
+ Le VHC comprend 7 à 8 génotypes (numérotés de 1 à 7 ou 8) et plus de 100 sous-types, qui diffèrent par leur répartition géographique, leur réponse au traitement et leur impact épidémiologique \cite{chevaliezVirusLhepatiteVHC, FlaviviridaeClassificationLHepacivirus}.  Les génotypes 1,2,3 sont largement répandus dans le monde, tandis que les génotypes 5 et 6 sont fréquents en Afrique du Sud et en Asie du Sud-Est. Le génotype 4 est prédominant en Afrique centrale et en Afrique du Nord. Les génotypes 1 et 2 sont plus fréquents en Afrique de l'Ouest \cite{zebaCharacterisationHepatitisVirus2014}.\\
+ 
+ 
+Le VHC se transmet principalement par le contact avec du sang infecté, notamment lors d’injections ou de procédures dangereuses réalisées dans des établissements de santé, lors de transfusions sanguines non sécurisées, par la consommation de drogues injectables, ainsi que lors de pratiques sexuelles exposant au sang. Les nouvelles infections surviennent principalement chez les populations à haut risque, telles que les usagers de drogues injectables (UDI), les hommes ayant des rapports sexuels avec des hommes (HSH) et les travailleuses du sexe (TS). Les UDI représentent la source de transmission la plus fréquemment identifiée ; les risques liés aux transfusions sanguines, aux transplantations d’organes ou de tissus, ainsi qu’aux autres expositions au sang, telles que le tatouage ou le piercing, concernent une proportion plus limitée des cas. En outre, la consommation d’alcool, l’âge avancé et le non-respect des mesures de désinfection des outils de coiffure peuvent augmenter le risque d’infection par le VHC. Le partage d’objets tranchants, notamment les rasoirs, les brosses à dents ou d’autres objets pouvant être en contact avec du sang, constituent également un facteur de risque important de transmission intrafamiliale du VHC.\cite{allardFacteursRisquePour2008,PrevalenceVHCRisque,kpossouSeroprevalenceAnticorpsAntivirus2021}.
+\\
+En Afrique subsaharienne, la transmission est essentiellement liée à des comportements médicaux non sécurisées et à des transfusions sanguines contaminées. D’autres modes de transmission liés aux comportements personnels dangereux liés aux piqûres d'aiguille, notamment le piercing, la scarification et le tatouage. En outre, on a aussi la transmission verticale (transmission de la mère à l'enfant) qui se produit à un taux d'environ 5 à 10\%  et ce taux de transmission peut être élévé en cas de co-infection de VIH  \cite{ouobaEpidemiologicProfileHepatitis2021, Hepatitisb,bartlettPatternsCorrelatesHepatitis2022,pediatriePriseChargeNourrissons}.\\
+
+
+ 
+ 
+ \subsubsection  {Quasi-espèce (diversité) virale du VHC}
+  
+Comme de nombreux autres virus à ARN, le taux de mutation du VHC est très élevé, avec une estimation  moyenne d'environ $10^{-3}$ substitutions par site et par an, ce qui contribue à sa grande variabilité génétique.  En conséquence, au sein d’un même patient infecté on peut retrouver un mélange de populations virales étroitement apparentées mais distinctes appelé quasi-espèces. La distribution en quasi-espèces du VHC favorise sa survie. En effet, la présence simultanée de variants viraux différents et la rapidité avec laquelle de nouveaux variants émergent permettent la sélection rapide et continue des variants les mieux adaptés à l’environnement au sein duquel le virus se réplique. La capacité d’adaptation des quasi-espèces virales aux modifications de l’environnement joue un rôle important dans la physiopathologie de l’infection, aussi bien dans les mécanismes de persistance virale que dans la résistance aux traitements antiviraux ou la récidive de l’infection après transplantation hépatique \cite{pawlotskyVirusLhepatite2002,mennecierVirusLhepatiteMonhepatogastro2022}.
+
+
+\subsection{Ménage}
+
+Au sens statistique, un ménage (foyer) est l'ensemble des personnes qui vivent habituellement dans un même logement, sans qu'il soit nécessaire qu'elles aient un lien de parenté \cite{MenageInsee}. Selon l'Institut National de la Statistique et de la Démographie (INSD) du Burkina Faso, un ménage ordinaire est l'unité de base utilisée dans les enquêtes statistiques. Il désigne un groupe de personnes apparentées ou non, vivant dans le même logement, qui mettent en commun leurs ressources et satisfassent ensemble à leurs besoins essentiels. Le ménage peut être composé d’une seule personne ou de plusieurs personnes, par exemple un chef de ménage (homme), son épouse  ou ses épouses, ses enfants non mariés ou d’autres personnes vivant ensemble \cite{BurkinaFasoRecensement}. Les ménages où l'on observe au moins deux cas d'infection par le VHC sont considérés comme des foyers multiples ou clusters du VHC. La transmission intrafamiliale est une transmission survenant au sein du foyer. 
+
+\newpage 
+
+\section{Contexte de l'étude}
+
+
+\subsection{Cadre de l'étude}
+L'étude a été mené au Burkina Faso plus précisément dans la région du Sud-Ouest appelé récemment renommée la région de \textbf{Djôrô}. Cette région est l’une des 17 régions administratives du Burkina Faso. Située dans la partie Sud-Ouest du pays, elle  couvre environ 16 317 km\textsuperscript{2} et partage des frontières avec le Ghana et la Côte d’Ivoire. Elle comprend 4 provinces: la Bougouriba, le Ioba, le Noumbiel et le Poni et 28 départements. Elle compte 4 communes urbaines, 24 communes rurales et 1084 villages. La population totale estimée en 2024 est de 986 700  habitants avec une densité de 61 hab./km\textsuperscript{2} \cite{Djoro2026} (figure~\ref{fig:carte}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{./Image/Présentation5.pdf}
+\caption[Région Djôrô] {Situation géographique de la région de Djôrô: en haut à gauche nous avons la carte du Burkina Faso avec ces pays limitrophes et la répartition spatiale des 17 régions administratives. La région Djôrô (jaune) comprend 4 provinces : la Bougouriba, le Ioba, le Noumbiel et le Poni}
+\label{fig:carte}
+\end{figure}
+
+\subsection{Type et période de l’étude}
+Les données sont issues d’une étude rétrospective, projet ANRS REVERSO, mené en 2020 dans les ménages de la région de Djôrô, Burkina Faso.
+
+\subsection{Conception de l'étude}
+
+La population d’étude était constituée des individus résidant dans les ménages ordinaires de la région de Djôrô, quel que soit leur âge, et y vivant habituellement depuis au moins six mois. L'étude a porté sur un échantillon représentatif de cette population, constitué selon la méthodologie des Enquêtes Démographiques et de Santé (EDS), reposant sur un échantillonnage en grappes stratifié à deux degrés.\\
+
+L’unité primaire de sondage était la zone de dénombrement (ZD), telle que définie dans l’EDS 2010. Trente et une ZD ont été sélectionnées par tirage aléatoire avec une probabilité proportionnelle au nombre de ménages. Au second degré, les ménages, considérés comme unités secondaires de sondage, ont été sélectionnés dans chaque ZD par tirage systématique à probabilité égale. Avant le tirage, un recensement et une numérotation de l’ensemble des concessions et des ménages des ZD retenues ont été effectués. Tous les individus des ménages sélectionnés ont ensuite été enquêtés. \\
+
+La collecte des données a été réalisée par un binôme constitué d’un enquêteur et d’un agent de santé, qui a visité chaque foyer de la zone attribuée. Les foyers retenus pour l’enquête avaient été préalablement informés de la date de passage. Lorsque le chef de ménage était absent et qu’aucun adulte ne pouvait le représenter, une nouvelle visite était programmée. Avant toute inclusion dans l’étude, un consentement écrit et signé du chef de ménage était recueilli après présentation du projet et de ses objectifs. Les données collectées sur le terrain portaient sur les caractéristiques sociodémographiques des participants, notamment l’âge, le sexe, le milieu de résidence, la vie en couple, les biens possédés par les ménages, le statut matrimonial etc...
+
+\subsection{Diagnostic du VHC}
+
+Le dépistage de l’hépatite C sur le terrain, a été réalisé à l’aide des tests de diagnostic rapides (TDR) de détection des anticorps anti-VHC lors des visites de foyers. Chez les sujets dépistés anti-VHC positif par le TDR, un prélèvement gouttes de sang a été recueilli sur une carte de papier buvard Whatman 903 (Dried Blood Spots (DBS)). Le prélèvement pour le DBS, s’est fait au bout du doigt pour les adultes et enfants de plus de 2 ans et au talon pour les enfants de moins de 2 ans. Pour le diagnostic de l’infection chronique au VHC, un test Cobas AmpliPrep/Cobas TaqMan (qPCR) a été utilisé ce qui permet la détection et la quantification de l'ARN du VHC. En effet, la présence d’ARN VHC signe une infection en cours. Lorsque le test ARN était négatif, l’infection au VHC s’est résolue naturellement. 
+
+\section {Contexte du stage}
+
+\subsection{Origine de la problématique de stage}
+
+Le projet REVERSO avait pour objectif général d’investiguer l’épidémie de VHC en population générale dans la région de Djôrô. Les analyses épidémiologiques menées dans ce cadre ont permis d’identifier plusieurs foyers présentant au moins deux cas d’infection par le VHC. En complément, une analyse des facteurs de risque a été réalisée afin d’expliquer la distribution de l’infection dans la région. Cependant, cette approche n’a pas permis d’élucider l’origine des clusters observés au sein des foyers comportant au moins deux cas. Ainsi, une approche moléculaire a été envisagée afin d’explorer plus précisément ces regroupements de cas et d’évaluer l’hypothèse d’une transmission intrafamiliale.
+
+\subsection{Critères et procédure de sélection des échantillons}
+
+Après confirmation des cas de VHC par qPCR, les patients présentant une infection chronique ont été sélectionnés aléatoirement pour le génotypage. Afin de tester l’hypothèse d’une transmission intrafamiliale, des échantillons issus de foyers comptant au moins deux cas de VHC, ainsi que des échantillons provenant de foyers ne présentant qu’un seul cas de VHC et servant de groupe contrôle, ont été retenus pour cette analyse.
+
+\subsection{Séquençage: méthode Sanger}
+Pour le génotypage, le séquençage Sanger a été réalisé sur la région NS5B qui est une région conservée du génome viral présentant une variabilité suffisante pour permettre la discrimination des différents génotypes du VHC. Le VHC étant un virus à ARN monocaténaire, une étape préalable de transcription inverse (Reverse Transcription) est nécessaire afin de convertir l’ARN viral en ADN complémentaire (ADNc) grâce à l’enzyme transcriptase inverse. L’ADNc obtenu a été ensuite amplifié par PCR afin d'obtenir une quantité suffisante de matériel génétique. La presence et la taille attendue du produit amplifié ont été contrôlées par électrophorèse sur gel d’agarose. Les amplicons obtenus ont été finalement soumis au séquençage de Sanger pour déterminer les séquences nucléotidiques de la régions d’intérêt (figure~\ref{fig:Processus}).
+\newpage
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\textwidth]{./Image/processus}
+\caption[Procédure expérimentale Sanger] {Procédure expérimentale de Sanger: cette figure présente les différentes étapes, depuis l’extraction de l’ARN viral jusqu’au séquençage Sanger}
+\label{fig:Processus}
+\end{figure}
+
+La méthode de Sanger, aussi appelée séquençage par terminateurs de chaîne, est une méthode de séquençage d’ADN développée par Frederick Sanger en 1977. Cette méthode nécessite une matrice d’ADN simple brin, une amorce, une ADN polymérase, des désoxynucléotides triphosphates (dNTP) et des didésoxynucléotides triphosphates (ddNTP). Les ddNTP sont des nucléotides dépourvus du groupeement 3’OH qui stoppent l’élongation de l’ADN. L’analyse des fragments générés permet ensuite de déterminer l’ordre des nucléotides constituant la séquence étudiée \cite{SangerSequencing2026}.
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=1\textwidth]{./Image/Capture.png}
+%\caption[Séquençage Sanger] {Séquençage Sanger; souce: \cite{SangerSequencing2026}}
+%\label{fig:sanger}
+%\end{figure}%
+
+\subsection{Critères d'inclusion et d'exclusion des séquences}
+
+À l’issue du séquençage Sanger, toutes les séquences de génotype 2 ont été conservées pour l’analyse de la transmission intrafamiliale, en raison de leur forte prédominance par rapport aux autres génotypes. Ce choix était d’autant plus pertinent que le génotype 2 est le plus répandu en Afrique de l’Ouest selon la littérature \cite{zebaCharacterisationHepatitisVirus2014}. Par ailleurs, en limitant l’analyse des foyers multiples au génotype 2, les foyers présentant des génotypes distincts du VHC ont été exclus de l’étude.
+
+
+\subsection{Objectifs du stage}
+
+\subsubsection{Objectif général }
+Notre objectif général était d’étudier la transmission du VHC au sein des foyers infectés dans la région de Djôrô, au Burkina Faso, en 2020.
+\subsubsection{Objectifs spécifiques }
+Il s'agissait plus spécifiquement de :
+\begin{itemize}
+\item décrire la sélection des participants à l’aide d’un diagramme de flux ;
+ \item décrire les caractéristiques socio-démographiques des deux groupes ;
+ \item évaluer l’hétérogénéité génétique intra-hôte dans les deux groupes à partir des séquences consensus (voir la page \pageref{sec:analyse} pour la définition de la séquence consensus dans le cadre de notre étude);
+  \item étudier la transmission intrafamiliale du VHC en s’appuyant sur deux approches : d’une part, une analyse phylogénétique basée sur les séquences primaires (cf. page \pageref{sec:analyse}), et d’autre part, une analyse des événements de transmission au sein des foyers.
+\end{itemize}
+
+\newpage 
+
+\section{Analyses des données}
+\label{sec:analyse}
+
+\subsection{Pipeline bioinformatique de prétraitement des séquences }
+
+Les chromatogrammes issus du séquençage de Sanger (format .ab1) ont été nettoyés en fonction de leur qualité à l’aide du score Phred. Ce score correspond à une mesure de la fiabilité de chaque base appelée et reflète la probabilité qu’elle soit incorrecte. Le score est définit par:
+\[
+Q = -10 \log_{10}\left(P_{\mathrm{erreur}}\right)
+\]
+où $Q$ est le score Phred et $P_{\mathrm{erreur}}$ est la probabilité qu'une base soit incorrecte. \\
+\textbf{Interprétation: }
+Plus Q est élevé, plus la base est fiable, car la probabilité d’erreur est faible.\\
+\begin {itemize}
+\item $Q$=20 correspond à une probabilité d’erreur de 1 sur 100, soit 99\% de fiabilité.
+\item  $Q$=30 correspond à une probabilité d’erreur de 1 sur 1000, soit 99,9\% de fiabilité. \\
+\end {itemize}
+À l’aide du logiciel Chromas, les chromatogrammes ont été visualisés afin de réaliser un contrôle de qualité des pics fluorescents correspondant aux bases nucléiques. En raison du grand nombre d’échantillons, la visualisation manuelle étant longue, un pipeline bioinformatique a été développé en Python (version 3.9.6) en utilisant la bibliothèque Biopython afin d’optimiser et de rendre reproductible le workflow de nettoyage. 
+Pour chaque séquence, les régions de faible qualité situées aux extrémités ont été supprimées par trimming, en appliquant un seuil de qualité Phred $Q \ge 20$. Les bases ambiguës (N) résiduelles ont été corrigées en consultant les signaux bruts du chromatogramme aux positions des pics réels.  La séquence primaire a été définie comme le signal fluorescent le plus élevé à chaque site (position) et la séquence secondaire comme le deuxième signal le plus fort avec un seuil de détection de 25\% du signal primaire. Une séquence consensus a été généré en combinant les séquence primaire et secondaire selon la nomenclature du code IUPAC, permettant de capturer les positions présentant une population virale hétérogène détectable (diversité des quasi-espèces). Après le nettoyage, les séquences primaires ont été concaténées entre elles, de même que les séquences secondaires et consensus, à l’aide de la commande « cat », générant ainsi trois fichiers multi-FASTA distincts destinés à l’alignement multiple et aux analyses phylogénétiques (figure~\ref{fig:pipeline}).
+
+\newpage
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=1.12\textwidth]{./Image/pipeline.png}
+\caption[Pipeline de traitement des séquences] {Pipeline de prétraitement des données issues du séquençage de Sanger}
+\label{fig:pipeline}
+\end{figure}
+
+\subsection [Hétérogénéité génétique intra-hôte du VHC ] {Hétérogénéité génétique intra-hôte (Diversité virale) du VHC dans la population d’étude}
+\label{sub:DV}
+
+Afin d’étudier l’hétérogénéité génétique intra-hôte au sein de la population d’étude, les séquences consensus des deux groupes (foyers et contrôles) ont été utilisées pour déterminer le nombre de sites nucléotidiques ambiguës dans chaque séquence. Ce paramètre a été considéré comme un indicateur de l’hétérogénéité génétique intra-hôte des populations virales. Le ratio de diversité virale a été calculé à l’aide de la formule ci-dessous:
+\[
+\text{Ratio} =
+\frac{\text{Nombre de sites ambigus}}
+{\text{Longueur de la séquence correspondante}}
+\times 100
+\]
+
+La médiane et l’intervalle interquartile (IIQ) ont été utilisés pour décrire la variation de ce ratio au sein du groupe, suivis d’une analyse de l’hétérogénéité génétique intra-hôte chez les individus appartenant à un même ménage. La comparaison de la diversité virale entre les groupes foyers multiples et contrôles a été réalisée à l’aide du test de Mann-Whitney (test de Wilcoxon).\\
+
+
+Pour les séquences consensus issues des foyers, nous avons évalué la proximité génétique entre les individus afin d’explorer de possibles événements de transmission du VHC. Nous avons supposé qu’au sein d’un ménage, l’infection pouvait avoir été acquise soit à l’intérieur du foyer, soit à l’extérieur. Sur la base des distances génétiques, chaque paire d’individus infectés a été considérée comme une comparaison de transmission potentielle. Ainsi, dans un ménage comportant deux personnes infectées, une seule comparaison était possible, tandis que dans un ménage de trois personnes, trois comparaisons étaient possibles. Ces comparaisons ont ensuite été représentées graphiquement.\\
+
+
+Afin de déterminer si l’infection était survenue en intra ou en inter-foyer, un seuil de distance génétique globale a été défini sur la base de la médiane des distances génétiques du groupe contrôle, ainsi que des quantiles à 5\% et 75\%, utilisés comme intervalles de référence. Un seuil de distance génétique de 0,03, basé sur la littérature \cite{bartlettPatternsCorrelatesHepatitis2022,montoyaDeepSequencingIncreases2016}, a été retenu pour identifier les transmissions probables intra-foyer. Ainsi, les événements de transmission présentant une distance génétique inférieure à 0,03 ont été considérés comme des transmissions intra-foyer probables ; ceux situés entre 0,03 et 5\textsuperscript{e} percentile comme des transmissions de proximité génétique faible à modérée, ceux compris entre le 5\textsuperscript{e} percentile et la médiane comme des divergences modérées; et ceux supérieur au 75\textsuperscript{e} percentile ont été considérés comme des transmissions inter-ménage.
+  
+
+\subsection{Méthodologie de l'analyses phylogénétiques}
+\subsubsection {Alignement multiple}
+
+L’alignement multiple a été réalisé avec MAFFT (version 7.526) qui est un algorithme de consistance et raffinement itératif. La ligne de commande bash ci-dessous a été utilisée pour lancer l'alignement multiple:
+\begin{terminal}
+# Commande Bash 
+ mafft --auto --reorder sequence_FC_BON.fasta > aligned_sequence_FC_BON.fasta
+\end{terminal}
+avec deux options importantes (--auto --reorder):  «auto» choisit automatiquement la meilleure stratégie d’alignement selon le nombre et le type de séquences, et «reorder» réorganise l’ordre des séquences en sortie selon leur similarité. 
+
+\subsubsection {Distance génétique du VHC}
+Pour estimer la distance génétique au sein des foyers, nous avons utilisé la méthode du Neighbor-Joining (NJ), une méthode de clustering ascendant pour la reconstruction d’arbres phylogénétiques, développée par Saitou et Nei en 1987. Cet algorithme repose sur la connaissance des distances génétiques entre chaque paire de séquences  afin de construire l’arbre phylogénétique \cite{NeighborJoining2026}.\\
+
+
+En complément de la méthode NJ, nous avons utilisé le modèle de substitution de Tamura-Nei (1993, TN93), qui prend en compte les différences entre les taux de transitions et de transversions, ainsi que les fréquences inégales des bases nucléotidiques (A, C, G, T) et les longueurs de branches. Ce modèle comporte plusieurs paramètres : les fréquences de bases (3 paramètres indépendants), les taux de substitution (2 paramètres), ainsi que les longueurs de branches, soit 2$N - 3$ paramètres pour un arbre non raciné. Au total, le modèle comprend $2N + 2$ paramètres, où N correspond au nombre de séquences (ou feuilles terminales).\\
+
+
+La matrice de distances génétiques par paires a été calculée sous R (version 4.6.0) à l’aide de la fonction dist.dna(), en utilisant le modèle TN93 avec suppression des positions comportant des gaps par paire (pairwise.deletion = TRUE). Les distances ont été calculées pour toutes les paires de séquences, soit $\frac{n(n-1)}{2}$ comparaisons, puis classées en deux catégories : les distances intra-foyer (entre individus d’un même foyer) et les distances inter-foyer (entre individus de foyers différents).
+
+\subsubsection {Phylogénétique par Maximum de vraisemblance}
+La sélection du meilleur modèle de substitution nucléotidique a été effectuée sous R (version 4.6) à l’aide de la fonction modelTest() du package phangorn (version 2.12.1), en comparant les modèles JC69, HKY85, TN93 et GTR, avec et sans distribution gamma (+G) et proportion de sites invariants (+I), selon le critère d’information d’Akaike (AIC). Le modèle présentant la plus faible valeur d’AIC a été retenu.
+L’arbre phylogénétique a ensuite été reconstruit par maximum de vraisemblance (ML) avec RAxML, installé via Conda dans un environnement dédié à la phylogénétique, puis exécuté en ligne de commande. Le modèle utilisé dans RAxML a été choisi de manière compatible avec le logiciel. Ainsi, si le modèle retenu par R était différent des modèles directement disponibles dans RAxML, nous avons utilisé le modèle GTR+G (GTRGAMMA) ou GTR+G+I (GTRGAMMAI) \cite{stamatakisRAxMLVersion82014}, qui correspond à l’approximation compatible avec le modèle sélectionné par phangorn. La robustesse topologique de l’arbre a été évaluée par 1 000 réplicats de bootstrap. la ligne de commande est : 
+
+\begin{terminal}
+# Activation de l'environnement phylogenetique
+conda activate phylogenetics
+
+# Lancement de RAxML
+raxmlHPC \
+-s alignedFC.fasta \
+-n VHCFC \
+-m GTRGAMMAI \
+-p 12345 \
+-x 12345 \
+-# 1000 \
+-f a
+\end{terminal}
+
+
+\begin{table}[!htbp]
+\centering
+\caption{Paramètres utilisés pour l'exécution de RAxML}
+\label{tab:raxml_parametres}
+\begin{tabular}{p{3cm} p{3cm} p{8cm}}
+\toprule
+\textbf{Paramètre} & \textbf{Valeur} & \textbf{Explication} \\
+\midrule
+raxmlHPC & -- & Exécutable RAxML pour HPC (High Performance Computing). \\
+
+\texttt{-s} & \texttt{alignedFC.fasta} &
+Nom du fichier d'entrée contenant les séquences alignées (format FASTA ou PHYLIP). \\
+
+\texttt{-n} & \texttt{VHCFC} &
+Suffixe du nom de sortie ; tous les fichiers générés porteront ce suffixe. \\
+
+\texttt{-m} & \texttt{GTRGAMMAI} &
+Modèle de substitution utilisé : GTR + modèle GAMMA d'hétérogénéité des taux + proportion de sites invariants (I). \\
+
+\texttt{-p} & \texttt{12345} &
+Graine (\textit{seed}) aléatoire utilisée pour générer l'arbre initial de la recherche par maximum de vraisemblance (ML). \\
+
+\texttt{-x} & \texttt{12345} &
+Graine aléatoire utilisée pour le bootstrap rapide (\textit{rapid bootstrap}). \\
+
+\texttt{-\#} & \texttt{1000} &
+Nombre de réplicats de bootstrap rapide réalisés. \\
+
+\texttt{-f} & \texttt{a} &
+Mode d'exécution : bootstrap rapide suivi de la recherche de l'arbre de maximum de vraisemblance (ML) optimal en une seule exécution. Génère un arbre ML annoté avec les valeurs de bootstrap. \\
+\bottomrule
+\end{tabular}
+\end{table}
+\newpage
+Un fichier \texttt{RAxML\_bipartitions.VHCFC} a été obtenu qui contient l’arbre ML optimal avec les valeurs de bootstrap annotées sur les nœuds qui a été importé sur R pour la visualisation de l’arbre ML.
+Les valeurs de bootstrap supérieures ou égales à 70\,\% ont été considérées comme un support statistique satisfaisant des nœuds internes.
+
+\subsection {Analyses statistiques}
+
+Les caractéristiques sociodémographiques des deux groupes ont été décrites. Les variables quantitatives, notamment l’âge, ont été résumées par la médiane et l’intervalle interquartile (IIQ), tandis que les variables qualitatives ont été présentées en effectifs et en pourcentages. La comparaison des caractéristiques sociodémographiques entre les deux groupes a été réalisée à l’aide du test du Chi-deux de Pearson pour les variables qualitatives. Lorsque les conditions d’application de ce test n’étaient pas remplies, en particulier lorsque les effectifs théoriques étaient inférieurs à 5 dans au moins une cellule, le test exact de Fisher a été utilisé. Pour les variables quantitatives, le test de Student a été appliqué.\\
+
+
+La significativité de la différence entre la distance intra- et inter-familial a été testée par le test de Mann-Whitney (test de Wilcoxon) ou notre hypothèse alternative: distances intra < distances inter.  Afin de représenter la matrice des distances génétiques entre les séquences virales des foyers multiples, une carte thermique (heatmap) a été utilisée pour visualiser les distances génétiques entre chaque paire de séquences. Dans cette représentation, chaque case correspond à la distance entre deux individus. Les couleurs claires reflètent une faible distance génétique, alors que les couleurs foncées indiquent une distance génétique plus élevée. La diagonale correspond à la comparaison d'un individu avec lui-même donc la distance est nulle. 
+
+
+\newpage 
+\section{Résultats }
+
+\subsection{Description des participants}
+
+
+\subsubsection{Description de la sélection des participants}
+
+Pour cette étude, au total 510 ménages ont été enquêtés, dont 179 comportaient au moins un cas de VHC positif. Parmi ces derniers, 85 ménages présentaient au moins deux cas de VHC au sein du même foyer et ont été considérés comme des foyers multiples. \\
+
+
+Dans ces foyers multiples, 30 participants ont été sélectionnés pour le séquençage Sanger. Sur les 30 échantillons, 25 ont été amplifiés avec succès pour la région NS5B. Parmi eux, 18 séquences provenaient de 8 foyers étaient de génotype 2. \\
+
+
+Quant au groupe contrôle, le même filtre a été appliqué. Au total, 80 échantillons ont été sélectionnés, dont 51 amplifiés pour la région NS5B. Parmi ces 51 échantillons, 47 appartenaient au génotype 2. 
+
+
+%\begin{figure}[!ht]
+   % \centering
+
+   %\begin{subfigure}{1\textwidth}
+      %  \centering
+      % \includegraphics[width=\linewidth] {./Image/foyer.png}
+      %  \caption{Diagramme de flux des Foyers multiples}
+      %  \label{fig:foyer}
+    %\end{subfigure}
+    
+   % \hfill
+   %\begin{subfigure}{0.75\textwidth}
+       % \centering
+        % \includegraphics[width=\linewidth] {./Image/contrle.png}
+       % \caption{Diagramme de flux des contrôles}
+      %  \label{fig:controle}
+    %\end{subfigure}
+
+  %  \caption [Diagramme de flux des participants] {Diagramme de flux des participants: la figure (a) et (b) correspond au differentes étapes de sélection de séquences}
+  %  \label{fig:deux_figures}
+%\end{figure}
+
+
+\subsubsection{Caractéristiques socio-démographiques des deux groupes}
+
+Dans le groupe des foyers multiples, l’âge médian des participants était de 40 ans, avec un IIQ de [18–58] ans, et un sexe-ratio de 1,57. La majorité des participants résidaient en milieu rural (88,89\%), et l’analyse selon l’indice de richesse indiquait que ces foyers appartenaient principalement à la catégorie pauvre (38,89\%) (tableau \ref{tab:caracteristiques}).\\
+
+Dans le groupe contrôle, l’âge médian était de 44 ans, avec un IIQ de [31–60] ans, et un sexe-ratio de 0,68. La plupart des participants vivaient dans la province de Ioba et plus de la moitié étaient célibataires (53,19\%).
+L’analyse met en évidence une différence statistiquement significative entre les deux groupes en fonction de la tranche d’âge (p = 0,03) et de la province de résidence (p = 0,02) (tableau \ref{tab:caracteristiques}).
+
+\begin{table}[!htbp]
+\centering
+\caption[Statistiques descriptives des participants]{Statistiques descriptives des participants}
+\label{tab:caracteristiques}
+\begin{tabular}{>{\raggedright\arraybackslash}p{4cm}
+                >{\raggedleft\arraybackslash}p{4cm}
+                >{\raggedleft\arraybackslash}p{4cm}
+                 >{\raggedleft\arraybackslash}p{2.5cm}}
+\toprule
+\textbf{Variables} &
+\centering\textbf{Foyers multiples}\\(n = 18)\\N (\%) ou médiane [IIQ] &
+\centering\textbf{Groupe contrôles}\\(n = 47)\\N (\%) ou médiane [IIQ]  &
+\centering\textbf{P-value} \tabularnewline
+\midrule
+
+\textbf{Âge (ans)} & 40 [18--57,5] & 44 [31--60] & \textbf{0,32} \\
+\addlinespace
+
+\textbf{Groupe d'âge} &  &  & \textbf{0,03} \\
+\hspace{0.5cm}Moins de 20 ans & 5 (27,78) & 3 (6,38) &  \\
+\hspace{0.5cm}Plus de 20 ans & 13 (72,22) & 44 (93,62) &  \\
+
+\addlinespace
+
+\textbf{Sexe} &  &  & \textbf{0,13} \\
+\hspace{0.5cm}Masculin & 11 (61,11) & 19 (40,43) &  \\
+\hspace{0.5cm}Féminin & 7 (38,89) & 28 (59,57) &  \\
+
+\addlinespace
+
+\textbf{Milieu de résidence} &  &  & \textbf{0,57} \\
+\hspace{0.5cm}Urbain & 2 (11,11) & 2 (4,55) &  \\
+\hspace{0.5cm}Rural & 16 (88,89) & 42 (95,45) &  \\
+
+\addlinespace
+
+\textbf{Province} &  &  & \textbf{0,002 }\\
+\hspace{0.5cm}Poni & 7 (38,89) & 3 (6,38) &  \\
+\hspace{0.5cm}Ioba & 9 (50,00) & 38 (80,85) &  \\
+\hspace{0.5cm}Bougouriba & 2 (11,11) & 2 (4,26) &  \\
+\hspace{0.5cm}Noumbiel & 0 & 4 (8,51) &  \\
+
+\addlinespace
+
+\textbf{Vivre en couple} &  &  & \textbf{0,81} \\
+\hspace{0.5cm}Couple & 9 (50,00) & 22 (46,81) &  \\
+\hspace{0.5cm}Pas en couple & 9 (50,00) & 25 (53,19) &  \\
+
+\addlinespace
+
+\textbf{Indice de richesse} &  &  & \textbf{0,49 }\\
+\hspace{0.5cm}Très pauvres & 0 & 5 (11,36) &  \\
+\hspace{0.5cm}Pauvres & 7 (38,89) & 9 (20,45) &  \\
+\hspace{0.5cm}Classes moyennes & 4 (22,22) & 12 (27,27) &  \\
+\hspace{0.5cm}Riches & 3 (16,67) & 8 (18,18) &  \\
+\hspace{0.5cm}Très riches & 4 (22,22) & 10 (22,73) &  \\
+
+\bottomrule
+\end{tabular}
+\end{table}
+\newpage
+
+\subsection{Analyse de l’hétérogénéité génétique intra-hôte du VHC}
+
+\subsubsection{Analyse de la diversité virale dans le groupe des foyers multiples}
+
+Dans le groupe des foyers multiples, le ratio de la diversité virale intra-hôte du VHC (formule à la page \pageref{sub:DV}) variait de 0 à 24,29 \%, avec une médiane de 16,50\% et un IIQ [0,97-18,45]. Les ménages M01 (18,15 [18,03-18,26]), M02 (18,99 [18,57-19,87]), M07 (15,15 [13,48-16,81]) et M08 (19,69 [17,39-21,99]) présentaient des niveaux élevés de diversité chez la plupart des participants, tandis que les ménages M03  (0,64 [0,48-0,80])et M04 (0 ) étaient caractérisés par une faible proportion de sites ambiguës, traduisant des populations virales plus homogènes. En revanche, les ménages M05 (10,63 [6,75-14,50]) et M06 (1 [0,50-10,38]) montraient une variabilité plus importante entre leurs membres (figure ~\ref{fig:DVF}).
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=1.1\textwidth]{./Image/diversitviralFoyer.png}
+\caption [Diversité virale intra-hôte du VHC dans les foyers multiples] {Diversité virale intra-hôte du VHC dans les foyers multiples: sur ce graphe, l’axe des abscisses correspond aux ménages, distingués par des couleurs différentes, et l’axe des ordonnées au ratio de diversité virale. Pour chaque ménage, une boîte à moustaches illustrant la diversité virale intra-hôte et les nuages de points représentant le nombre d’individus par ménage. Le ménage M08 présentait une diversité virale élevée entre les individus (19,69\%), contrairement au ménage M06 avec une variabilité importante entre ses membres (IIQ [0,50–10,38])}
+\label{fig:DVF}
+\end{figure}
+
+
+\subsubsection{Analyse de la diversité virale dans le groupe contrôle}
+
+Dans le groupe contrôle, ce même ratio de la diversité intra-hôte variait de 0,31 à 11,36 \%, avec une médiane de 1,86 \% [0,95-2,90]. Pour l'individu \textbf{331912}, la diversité intra-hôte du VHC était faible avec une valeur de \textbf{0,31\%}. En revanche, le participant \textbf{412442}, avait une diversité intra-hôte assez élevé (\textbf{11,36\%}) (figure ~\ref{fig:DVC}).
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.1\textwidth]{./Image/diversiteviraleControle.pdf}
+\caption [Diversité virale intra-hôte du VHC dans le groupe contrôle] {Diversité virale intra-hôte du VHC dans le groupe contrôle: sur l’axe des abscisses figure le ratio de diversité virale, tandis que l’axe des ordonnées présente les individus, identifiés par leur numéro d’identifiant. Cette figure illustre la diversité intra-hôte du VHC chez chaque individu}
+\label{fig:DVC}
+\end{figure}
+
+La comparaison de la diversité intra-hôte du VHC entre le groupe foyer multiple et contrôle, le test de Wilcoxon a montré une différence statistiquement significative avec une p-value de 0,02.
+
+ %\newpage
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=1.1\textwidth]{./Image/diversitefoyercontrole.png}
+%\caption [Distribution de la diversité intra-hôte du VHC] {Comparaison de la distribution de la diversité intra-hôte du VHC des deux groupes: Cette figure compare la distribution de la diversité intra-hôte du VHC entre le groupe foyer multiple (rouge) et contrôle (bleu). L’axe des abscisses correspond aux groupes, tandis que l’axe des ordonnées indique la diversité virale. La médiane de la diversité est plus élevée chez les foyers multiples (16,50\%) que chez le groupe contrôle (1,86\%)}
+%\label{fig:compare}
+%\end{figure}
+
+
+\subsection{Approche phylogénétique du VHC}
+
+\subsubsection{Distance génétique du VHC}
+
+De manière globale, la distance génétique dans la région de Djôrô variait de 0 à 0,39, avec une médiane de 0,24 [0,18 - 0,28]. Dans les foyers multiples, elle variait de 0 à 0,37, avec une médiane de 0,22 [0,13 - 0,26]. À l’inverse, dans le groupe contrôle, la distance génétique variait de 0 à 0,39, avec une médiane autour de 0,24 [0,18-0,28]. La comparaison entre les deux groupes à l’aide du test de Wilcoxon a montré une différence statistiquement significative (p < 0,05). 
+
+\subsubsection{Description du type de transmission du VHC dans les foyers multiples}
+
+Parmi les 18 séquences issues des foyers multiples, la méthode de distance a permis 153 comparaisons dont 12 comparaisons intra-foyer et 141 comparaisons inter-foyer. La distance génétique inter-foyer variait de 0 à 0,37 avec une médiane de 0,22 [0,14–0,26], tandis que la distances intra-foyer variait de 0 à 0,33 avaient une médiane de 0,19 [0,03–0,28]. Bien que la distance génétique intra-foyer soient légèrement plus faibles, la comparaison entre les deux distributions à l’aide du test de Wilcoxon n’a pas mis en  évidence de différence statistiquement significative (p = 0,35). 
+
+%\begin{figure}[!ht]
+%\centering
+%\includegraphics[width=1.1\textwidth]{./Image/boxplot_intra_inter.png}
+%\caption [Distribution de la distance génétique du VHC dans les foyers multiples ]{Comparaison de la distribution des distances génétiques au sein des foyers multiples : la distribution de la distances inter-foyer sont représentées en rouge, tandis que l'intra-foyers en bleu. La médiane des distances intra-foyers est légèrement inférieure à celle des distances inter-foyers, mais cette différence n’est pas statistiquement significative.}
+%\label{fig:compare2}
+%\end{figure}
+
+À partir du heatmap, on remarque que deux individus du M06 (intra); le M04 et M06 (inter)  ont une distance génétique très faible (0) (couleur claire: jaune). En plus de cela, on a une distance génétique observée entre M02-2110425 et M06-3322291 (inter) est très faible (0,0096), traduisant une forte similarité entre les deux séquences virales et une proximité phylogénétique marqué (figure ~\ref{fig:matrice}).
+\newpage
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=1.11\textwidth]{./Image/heatmap_distancesfoyerprimary2.png}
+\caption [Matrice de la distance génétique dans les Foyers multiples] {Matrice de la distance génétique dans les Foyers multiples:  cette figure représente les distances génétiques par paire entre les séquences étudiées, avec une échelle de couleur allant des distances les plus faibles aux plus élevées. Les couleurs claires correspondent à des séquences très proches génétiquement, tandis que les couleurs foncées indiquent des distances plus importantes}
+\label{fig:matrice}
+\end{figure}
+
+
+\subsubsection{Arbre phylogénétique du VHC chez les foyers multiples}
+
+L’analyse phylogénétique des foyers multiples, fondée sur la méthode des distances et la méthode du maximum de vraisemblance, révèle des regroupements partiels de séquences appartenant à un même ménage, traduisant une proximité génétique au sein de certains foyers. La barre d’échelle de 0,05 indique le niveau de divergence génétique, de sorte que des branches plus longues traduisent une plus grande distance évolutive entre les séquences. L’arbre phylogénétique met en évidence deux grands groupes principaux. Toutefois, les séquences issues d’un même foyer ne forment pas systématiquement un groupe monophylétique (clade). Le premier groupe de l’arbre montre notamment un rapprochement entre les deux séquences des ménages M02 et M06, sans qu’un clade strict ne soit observé. À l’inverse, les ménages M03, M05, M07 et M08 présentent une plus grande dispersion de leurs séquences (figure ~\ref{fig:fM}).\\
+
+%\begin{figure}[!ht]
+%\centering
+%\includegraphics[width=1.18\linewidth]{./Image/phylogenie_VHCfoyerprimDist.png}
+%\caption [Phylogramme dans le groupe foyers multiples: distance] {Phylogramme dans le groupe des foyers multiples : cette figure illustre un arbre phylogénétique construit à partir des séquences analysées, afin d’évaluer leurs relations génétiques. Chaque foyer est codé par une couleur.}
+% \label{fig:foyerM}
+%\end{figure}
+
+La topologie obtenue par Maximum de Vraisemblance est globalement proche de celle obtenue par la méthode des distances. Plusieurs clades sont bien soutenus par des valeurs de boostraps comprises entre 74\% et 100\%, ce qui renforce la robustesse de certains regroupements. En particulier, le clade comprenant plusieurs séquences des ménages (M01, M02, M03, M05 et M06) présente un support maximal (bootstrap = 100\%). Un autre regroupement comme M05-3322241 et M06-3322292 est fortement soutenu (bootstrap = 98\%), tandis que leur regroupement avec la séquence M04-3312412 présente un support de 93\%. Mais nous remarquons sur l'arbre que les séquences provenant d'un même ménage ne se regroupe pas strictement au sein du même groupe monophélitique exclusifs (figure ~\ref{fig:fM}). 
+
+\newpage
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=1\linewidth]{./Image/Présentation4FM.pdf}
+\caption [Phylogramme dans le groupe foyers multiples] {Phylogramme dans le groupe foyer multiples: 
+(A): représente l'arbre construit avec la méthode de distance et (B) avec la méthode de maximum de vraisemblance avec des valeurs de boostraps à 1000; chaque couleur représente un foyer.}
+\label{fig:fM}
+\end{figure}
+\newpage
+
+\subsubsection{Arbre phylogénétique dans les deux groupes}
+
+L’analyse phylogénétique intégrant les séquences des foyers multiples et du groupe contrôle en utilisant la méthode des distances (figure~\ref{fig:FC}), montrait que les séquences des foyers multiples ne forment pas un cluster totalement distinct du groupe contrôle. On constatait toujours les séquences des individus du ménages M04, M05 et M06 former un même clade, suggérant une proximité génétique compatible avec une circulation virale partagée au sein de  ménages (M06), tandis que d’autres sont plus dispersées et proches de séquences du groupe contrôle. \\
+
+%\centering
+%\includegraphics[width=1.18\linewidth]{./Image/phylogenie_foyer_controleDist.png}
+%\caption [Phylogramme des deux groupes: méthode distance] {Phylogramme des deux groupes: méthode distance; sur cet arbre phylogénétique, nous avons en couleur les foyers et en gris le groupe contrôle. On remarque qu'aucune des séquences des foyers distincts ne forme un groupe monophylétique.}
+%\label{fig:Fcontrole}
+%\end{figure}
+
+
+L’arbre phylogénétique obtenu par la méthode du maximum de vraisemblance met en évidence plusieurs clades bien soutenus, avec des valeurs de bootstrap comprises entre 78\% et 100\%. Dans cet arbre, les séquences issues des différents foyers ne sont pas réparties selon des clades strictement séparés, et les séquences appartenant à un même ménage ne forment pas systématiquement un clade. Cependant, on observe un regroupement des deux séquences du ménage M06, ainsi qu’un regroupement entre une séquence des ménages M04 et M05, avec une valeur de bootstrap de 78\%, indiquant un soutien modéré pour ce clade (figure ~\ref{fig:FC}).
+
+
+\newpage 
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.15\linewidth]{./Image/Présentation2FC.pdf}
+\caption [ Phylogramme des deux groupes] { Phylogramme des deux groupes: (A) correspond à l'arbre avec la méthode distance, (B) l'arbre avec la méthode de maximum de vraisemblance avec des valeurs de boostraps à 1000; nous avons en couleur les foyers et en gris le groupe contrôle.}
+\label{fig:FC}
+\end{figure}
+
+\subsection{Analyse des événements de transmission du VHC au sein des foyers}
+
+L’analyse des événements de transmission intra-foyer montrait que certains foyers, notamment M01, M02 et un individu de M06, présentaient des distances génétiques inférieures au seuil de 0,03, suggérant une forte proximité phylogénétique des séquences virales et une transmission intrafamiliale probable. Les distances génétiques observées dans les ménages M05, les deux individus du M06, M07 et M08, comprises entre le seuil de 0,03 et le 5\textsuperscript{e} percentile, se situent dans une zone de proximité génétique faible à modérée, restant compatibles avec une similarité virale importante. Pour le ménage M04, dont la valeur se situait entre le 5\textsuperscript{e} percentile et la médiane, la distance génétique traduit une divergence modérée. En revanche, le ménage M03, caractérisé par une distance plus élevée, suggère une moindre proximité génétique des séquences virales (figure ~\ref{fig:evenemt}).
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=1.15\textwidth]{./Image/evenementtransmission.png}
+\caption [Événement de la transmission du VHC dans les foyers multiple] {Événement de la transmission du VHC dans les foyers multiples: dans cette figure, l’axe des abscisses représente les différents foyers avec des couleurs distincts chacun et l’axe des ordonnées correspond à la distance génétique. Les nuages de points indiquent les comparaisons entre séquences intra-foyer, assimilées ici à des événements de transmission. Les lignes horizontales correspondent au seuil de 0,03, au 5\textsuperscript{e} percentile, à la médiane (en rouge) et au 75\textsuperscript{e} percentile. Les comparaisons présentant une distance inférieure à 0,03 sont interprétées comme des événements de transmission intrafamiliale probables. }
+\label{fig:evenemt}
+\end{figure}
+
+\newpage
+
+\subsection{Synthèse des deux approches}
+
+Le tableau récapitulatif (tableau \ref{tab:phylo_foyers}) met en évidence une concordance partielle entre l’approche phylogénétique et l’analyse des événements de transmission. En combinant les résultats des deux approches, certains foyers apparaissent compatibles avec une proximité génétique importante, tandis que d’autres présentent une dispersion plus marquée des séquences virales
+
+\begin{longtable}{>{\centering\arraybackslash}p{1.2cm} 
+                  p{3cm} 
+                  p{5cm} 
+                  p{3cm} 
+                  p{4cm}}
+
+\caption{Récapitulatif des deux approches utilisées pour la transmission intra-familiale du VHC}
+\label{tab:phylo_foyers}\\
+
+\hline
+\textbf{Foyer} & 
+\textbf{Individus} & 
+\textbf{Analyse phylogénétique} & 
+\textbf{Événement de transmission} & 
+\textbf{Interprétation finale} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Foyer} & 
+\textbf{Individus} & 
+\textbf{Analyse phylogénétique} & 
+\textbf{Distance/ Événement de transmission} & 
+\textbf{Interprétation finale} \\
+\hline
+\endhead
+
+
+% Foyer M01
+\rowcolor{blue!10}
+M01 & 
+M01-2110411  M01-2110418 & 
+Regroupement partiel & 
+Distance $<0,03$ & 
+Transmission intraménage possible \\
+
+
+% Foyer M02
+\rowcolor{green!10}
+M02 & 
+M02-2110423  M02-2110424  M02-2110425 & 
+Regroupement partiel, avec une séquence plus éloignée & 
+Distance $<0,03$ & 
+Hétérogénéité intra-ménage, transmission possible pour certains individus \\
+
+
+% Foyer M03
+\rowcolor{yellow!20}
+M03 & 
+M03-21433131  M03-21433133 & 
+Séquences éloignées & 
+Distance $>$ 0,03 & 
+Transmission intraménage peu probable \\
+
+
+% Foyer M04
+\rowcolor{orange!10}
+M04 & 
+M04-3312412  M04-3312413 & 
+Regroupement partiel & 
+Distance $>$ 0,03 & 
+Transmission possible mais non confirmée \\
+
+
+% Foyer M05
+\rowcolor{red!20}
+M05 & 
+M05-3322241  M05-3322244 & 
+Séquences éloignées & 
+Distance $>$ 0,03 & 
+Transmission intraménage peu probable \\
+
+
+% Foyer M06
+\rowcolor{purple!10}
+M06 & 
+M06-3322291  M06-3322292  M06-3322295 & 
+Deux séquences très proches, une plus éloignée & 
+Une distance $<0,03$ et deux distances $>$  0,03 & 
+Hétérogénéité intra-ménage, transmission possible pour certains individus \\
+
+
+% Foyer M07
+\rowcolor{cyan!10}
+M07 & 
+M07-3365151  M07-3365153 & 
+Séquences éloignées & 
+Distance $>$ 0,03 & 
+Transmission intraménage peu probable \\
+
+
+% Foyer M08
+\rowcolor{pink!20}
+M08 & 
+M08-351373  M08-351375 & 
+Séquences éloignées & 
+Distance $>$ 0,03 & 
+Transmission intraménage peu probable \\
+
+
+\hline
+
+\end{longtable}
+
+\clearpage
+
+\section{Discussion}
+
+L’analyse de la diversité virale intra-hôte du VHC fournit des indications sur l’ancienneté relative de l’infection. Dans les foyers M04, M03 et chez un individu du ménage M06, la diversité intra-hôte proche de zéro pourrait traduire une infection récente. Toutefois, une forte hétérogénéité est globalement observée entre les individus (16,50\%). Certains foyers, notamment M05 et M06, présentent une variabilité très marquée entre leurs membres, suggérant des dynamiques évolutives distinctes ou des durées d’infection différentes (figure \ref{fig:DVF}). Dans le groupe contrôle, la faible diversité virale (1,86\%) pourrait être compatible avec des infections plus récentes ou avec une dynamique de transmission particulière. Enfin, compte tenu des âges médians observés dans les groupes foyers multiples et contrôles respectivement 40 et 44 ans, il est possible de supposer que, dans les foyers multiples, l’infection intervient à des âges plus jeunes.\\
+
+Cependant, afin de répondre à notre question sur la transmission intrafamiliale, deux approches ont été analysées. L’analyse phylogénétique, fondée sur deux méthodes différentes (la distance génétique et le maximum de vraisemblance) a montré que les séquences provenant d’un même foyer ne formaient pas systématiquement des groupes monophylétiques. Les regroupements observés étaient indirects, et seuls les deux échantillons du ménage M06 (3322292 et 3322295) présentaient une proximité génétique marquée selon les deux méthodes d’analyse phylogénétique. Ces résultats suggèrent une transmission intrafamiliale probable entre ces deux individus. Ces deux personnes étaient respectivement la conjointe et la mère du chef de ménage, tandis que la séquence du chef de ménage lui-même (3322291) apparaissait très éloignée. On peut donc écarter, dans ce foyer, l’hypothèse d’une transmission sexuelle entre conjoints. Ce résultat diffère de celui rapporté par Kamila Caraballo Cortes et al. \cite{cortesSpousetoSpouseTransmissionEvolution2016}, dont l’étude sur la transmission du VHC entre conjoints avait montré un regroupement des séquences du couple, distinct de celles des groupes contrôles. Ainsi, avec cette approche, il est difficile de conclure à une transmission intrafamiliale pour l’ensemble des autres foyers. En effet, bien que l’analyse phylogénétique permette d’identifier les relations génétiques entre les séquences et de visualiser leur regroupement évolutif, le mélange de distances intra- et inter-foyers observé dans les analyses peut limiter la capacité de cette approche à répondre pleinement à notre question de recherche.\\
+
+
+Avec la seconde méthode, basée sur l’analyse des événements de transmission du VHC et reposant sur un périmètre d’analyse intra-foyer uniquement (figure~\ref{fig:evenemt}), les deux individus du ménage M06 (3322292 et 3322295) demeuraient également très proches, avec une distance génétique inférieure au 5\textsuperscript{e} percentile du groupe contrôle. Ces deux approches étant concordantes, on peut confirmer une transmission intra-foyer entre ces deux individus. Cette méthode nous a permis de répondre à notre question de recherche en comparant les événements de transmission intra-foyer à quatre seuils de distance génétique (0,03, 5\textsuperscript{e} percentile, médiane et 75\textsuperscript{e} percentile) du groupe contrôle. Pour chaque seuil, il était possible de déterminer s’il s’agissait effectivement d’une transmission intrafamiliale, comme l’ont fait Vincent Montoya et al. \cite{montoyaDeepSequencingIncreases2016}, qui ont testé sept seuils de distance patristique. Dans les revues de littérature, le seuil maximal retenu pour confirmer une transmission intrafamiliale était de 0,03 \cite{bartlettPatternsCorrelatesHepatitis2022,montoyaDeepSequencingIncreases2016}. Ainsi, en comparant nos événements de transmission dans les foyers multiples à ce seuil, nous avons pu identifier les foyers M01, M02 et M06 comme ayant une transmission au sein du foyer. De plus, en les comparant à la médiane du groupe contrôle, on peut considérer que presque toutes les infections à VHC au sein des foyers multiples étaient intrafamiliales, à l’exception du foyer M03. Dans ce dernier, les affiliations au sein du ménage concernaient le chef de ménage et sa conjointe, mais les arbres phylogénétiques montraient que leurs séquences ne se regroupaient pas en un même clade, ce qui conduit à rejeter l’hypothèse d’une transmission sexuelle. \\ 
+
+
+Ces transmissions intrafamiliales peuvent s’expliquer par le partage d’objets tranchants, de brosses à dents ou d’autres objets susceptibles d’entrer en contact avec du sang, ainsi que par une éventuelle transmission verticale de la mère à l’enfant. Cette dernière hypothèse peut être évoquée dans le ménage M02, où les affiliations correspondaient à la mère du chef de ménage et à deux frères de ce dernier ; dans les événements de transmission, leurs distances génétiques étaient inférieures à 0,03, même si ce mode de transmission reste rare. En revanche, pour le ménage M03, la transmission inter-foyer pourrait s’expliquer par une infection par des souches virales différentes, ou par des facteurs de risque communautaires tels que la scarification, la vaccination au pistolet qui est en rélation avec l'âge, compte tenu de leur âge (73 et 64 ans), ou encore le non-respect des mesures de désinfection des outils de coiffure. \\ 
+
+
+Néanmoins, cette étude comporte certaines limites. D’une part, l’effectif des foyers multiples analysés demeure restreint, avec seulement deux ménages comportant trois séquences, tandis que les autres n’en comptaient que deux. Cette sélection peut avoir introduit un biais dans l’analyse, et la taille réduite de l’échantillon peut en partie expliquer les résultats observés. D’autre part, le séquençage de Sanger ne permet pas de capter pleinement la diversité des quasi-espèces du VHC et n’est pas la méthode la plus appropriée pour les études d’épidémiologie moléculaire, notamment lorsqu’il s’agit d’identifier des clusters de transmission. À cet égard, \textbf{Vincent Montoya et \textit{al.}} \cite{montoyaDeepSequencingIncreases2016} ont montré que le séquençage à haut débit améliore la détection des clusters phylogénétiques du VHC par rapport au séquençage Sanger. \\
+
+\newpage 
+\section*{CONCLUSION}
+\addcontentsline{toc}{section}{CONCLUSION}
+
+En définitive, cette étude nous a permis d’appliquer l’épidémiologie moléculaire à l’investigation de la transmission intrafamiliale du VHC. Les analyses réalisées suggèrent que la présence de plusieurs cas au sein d’un même foyer peut s’expliquer par une transmission intrafamiliale. Toutefois, l’approche phylogénétique, en retraçant l’évolution des souches virales et la recherche d’un ancêtre commun, ne permet pas à elle seule de distinguer clairement les événements de transmission intra-foyer des transmissions inter-foyers. En nous focalisant spécifiquement sur les événements de transmission intrafamiliale, nous avons pu mettre en évidence une transmission probable au sein des familles, susceptible d’expliquer les regroupements de cas observés dans cette région.\\
+
+Dans une perspective future, nous envisageons de réaliser un séquençage par Oxford Nanopore afin de comparer les résultats obtenus, d’autant plus que des essais ont déjà été initiés sur quelques échantillons. L’objectif de ce nouveau séquençage sera d’identifier de nouveaux événements de transmission intrafamiliale et, à terme, d’analyser les facteurs de risque associés.\\ 
+
+%Nous souhaitons également valoriser cette étude par une publication scientifique. Au-delà de ses résultats, ce travail pourrait renforcer les outils de surveillance moléculaire du VHC en illustrant l’intérêt des approches bioinformatiques, notamment l’alignement, l’analyse phylogénétique et la détection de variants, pour développer un pipeline reproductible, utile à d’autres études locales ou nationales.\\
+
+Par ailleurs, les résultats obtenus pourraient orienter les politiques de prévention, en faisant des actions de
+sensibilisation ciblées au niveau des foyers et des communautés sur des facteurs de risque domestique qui sont susceptible d'avoir lieu dans les foyers. Enfin, en l’absence d’études antérieures sur la génétique des souches de VHC au niveau des foyers au Burkina Faso, ce travail pourrait constituer une référence pour de futures recherches sur la diversité virale, la phylodynamique locale et la réponse au traitement.
+
+
+\newpage 
+
+\pagenumbering{Roman}
+\setcounter{page}{4}
+
+\printbibliography
+
+
+\end {document}
+
+
+

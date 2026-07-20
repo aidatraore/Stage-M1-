@@ -2392,19 +2392,29 @@
     <bcf:citekey order="14" intorder="1">chevaliezVirusLhepatiteVHC</bcf:citekey>
     <bcf:citekey order="14" intorder="2">FlaviviridaeClassificationLHepacivirus</bcf:citekey>
     <bcf:citekey order="15" intorder="1">zebaCharacterisationHepatitisVirus2014</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">ouobaEpidemiologicProfileHepatitis2021</bcf:citekey>
-    <bcf:citekey order="16" intorder="2">Hepatitisb</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">pawlotskyVirusLhepatite2002</bcf:citekey>
-    <bcf:citekey order="17" intorder="2">mennecierVirusLhepatiteMonhepatogastro2022</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">MenageInsee</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">BurkinaFasoRecensement</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">Djoro2026</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">SangerSequencing2026</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">zebaCharacterisationHepatitisVirus2014</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">NeighborJoining2026</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">stamatakisRAxMLVersion82014</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">bartlettPatternsCorrelatesHepatitis2022</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">montoyaDeepSequencingIncreases2016</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">allardFacteursRisquePour2008</bcf:citekey>
+    <bcf:citekey order="16" intorder="2">PrevalenceVHCRisque</bcf:citekey>
+    <bcf:citekey order="16" intorder="3">kpossouSeroprevalenceAnticorpsAntivirus2021</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">ouobaEpidemiologicProfileHepatitis2021</bcf:citekey>
+    <bcf:citekey order="17" intorder="2">Hepatitisb</bcf:citekey>
+    <bcf:citekey order="17" intorder="3">bartlettPatternsCorrelatesHepatitis2022</bcf:citekey>
+    <bcf:citekey order="17" intorder="4">pediatriePriseChargeNourrissons</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">pawlotskyVirusLhepatite2002</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">mennecierVirusLhepatiteMonhepatogastro2022</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">MenageInsee</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">BurkinaFasoRecensement</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">Djoro2026</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">SangerSequencing2026</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">zebaCharacterisationHepatitisVirus2014</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">bartlettPatternsCorrelatesHepatitis2022</bcf:citekey>
+    <bcf:citekey order="24" intorder="2">montoyaDeepSequencingIncreases2016</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">NeighborJoining2026</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">stamatakisRAxMLVersion82014</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">cortesSpousetoSpouseTransmissionEvolution2016</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">montoyaDeepSequencingIncreases2016</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">bartlettPatternsCorrelatesHepatitis2022</bcf:citekey>
+    <bcf:citekey order="29" intorder="2">montoyaDeepSequencingIncreases2016</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">montoyaDeepSequencingIncreases2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

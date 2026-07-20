@@ -1,0 +1,47 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{SIGLES ET ABRÉVIATIONS}{I}{section*.1}%
+\contentsline {section}{LISTE DES FIGURES}{II}{section*.2}%
+\contentsline {section}{INTRODUCTION}{1}{section*.2}%
+\contentsline {section}{\numberline {I}Définitions}{2}{section.1}%
+\contentsline {subsection}{\numberline {I.1}Généralité du Virus de l'Hépatie C}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {I.1.1}Structure du génome du VHC}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {I.1.2}Génotypes et modes de transmissions du VHC}{3}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {I.1.3}Quasi-espèce (diversité) virale du VHC}{4}{subsubsection.1.1.3}%
+\contentsline {subsection}{\numberline {I.2}Ménage}{4}{subsection.1.2}%
+\contentsline {section}{\numberline {II}Contexte de l'étude}{5}{section.2}%
+\contentsline {subsection}{\numberline {II.1}Cadre de l'étude}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {II.2}Type et période de l’étude}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {II.3}Conception de l'étude}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {II.4}Diagnostic du VHC}{7}{subsection.2.4}%
+\contentsline {section}{\numberline {III}Contexte du stage}{8}{section.3}%
+\contentsline {subsection}{\numberline {III.1}Origine de la problématique de stage}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {III.2}Critères et procédure de sélection des échantillons}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {III.3}Séquençage: méthode Sanger}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {III.4}Critères d'inclusion et d'exclusion des séquences}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {III.5}Objectifs du stage}{10}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {III.5.1}Objectif général }{10}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {III.5.2}Objectifs spécifiques }{10}{subsubsection.3.5.2}%
+\contentsline {section}{\numberline {IV}Analyses des données}{11}{section.4}%
+\contentsline {subsection}{\numberline {IV.1}Pipeline bioinformatique de prétraitement des séquences }{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {IV.2}Hétérogénéité génétique intra-hôte du VHC }{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {IV.3}Méthodologie de l'analyses phylogénétiques}{13}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {IV.3.1}Alignement multiple}{13}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {IV.3.2}Distance génétique du VHC}{13}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {IV.3.3}Phylogénétique par Maximum de vraisemblance}{14}{subsubsection.4.3.3}%
+\contentsline {subsection}{\numberline {IV.4}Analyses statistiques}{16}{subsection.4.4}%
+\contentsline {section}{\numberline {V}Résultats }{17}{section.5}%
+\contentsline {subsection}{\numberline {V.1}Description des participants}{17}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {V.1.1}Description de la sélection des participants}{17}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {V.1.2}Caractéristiques socio-démographiques des deux groupes}{17}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {V.2}Analyse de l’hétérogénéité génétique intra-hôte du VHC}{19}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {V.2.1}Analyse de la diversité virale dans le groupe des foyers multiples}{19}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {V.2.2}Analyse de la diversité virale dans le groupe contrôle}{20}{subsubsection.5.2.2}%
+\contentsline {subsection}{\numberline {V.3}Approche phylogénétique du VHC}{20}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {V.3.1}Distance génétique du VHC}{20}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {V.3.2}Description du type de transmission du VHC dans les foyers multiples}{21}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {V.3.3}Arbre phylogénétique du VHC chez les foyers multiples}{22}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {V.3.4}Arbre phylogénétique dans les deux groupes}{25}{subsubsection.5.3.4}%
+\contentsline {subsection}{\numberline {V.4}Analyse des événements de transmission du VHC au sein des foyers}{26}{subsection.5.4}%
+\contentsline {subsection}{\numberline {V.5}Synthèse des deux approches}{27}{subsection.5.5}%
+\contentsline {section}{\numberline {VI}Discussion}{29}{section.6}%
+\contentsline {section}{CONCLUSION}{31}{section.6}%
