@@ -1,0 +1,64 @@
+---
+title: "Investigating Household Transmission of Hepatitis C Virus in Burkina Faso"
+subtitle: "Aïda Traore$^{1}$, Natalie Olson$^{1}$, Laetitia Gay$^{1}$, Jean-Pierre Moles$^{1*}$"
+date: today
+date-format: long
+bibliography: RAPPORT/Reference.bib
+# csl: chicago-author-date.csl   # pandoc's default style is already Chicago author-date
+lang: en
+format:
+  pdf:
+    documentclass: scrartcl
+    classoption: [DIV=11, numbers=noendperiod]
+    papersize: a4
+    geometry: margin=2cm
+    pdf-engine: lualatex
+    number-sections: false
+    fig-pos: "H"
+    colorlinks: true
+    linkcolor: blue
+    filecolor: Maroon
+    citecolor: Blue
+    urlcolor: Blue
+    include-in-header:
+      text: |
+        \usepackage{placeins}
+        \KOMAoptions{parskip=half}
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+# Load packages / data here; chunks can feed numbers straight into the text, e.g.
+# library(tidyverse)
+# dat <- readr::read_csv("data/households.csv")
+```
+
+\small
+1\. PCCEI, Univ Montpellier, INSERM, Univ Antilles, Montpellier, France\
+\* Corresponding authors: `natalie.olson@umontpellier.fr`, `jean-pierre.moles@inserm.fr`
+\normalsize
+
+## Abstract
+
+## Introduction
+
+Hepatitis C virus causes chronic liver morbidity and mortality. While global HCV burden has improved in recent years, incidence continues to rise [@bai_global_2025]. In 2013, viral hepatitis represented the seventh greatest cause of mortality globally, with approximately 1.4 million deaths due to acute cases, cirrhosis, and liver cancer. Nearly half of these deaths are attributed to HCV. Among people living with HIV, coinfections with HCV are common, with approximately 2.9 million cases reported [@OrganisationMondialeSante; @VIHSidaHepatite2025]. At the global scale, 50 million people are estimated to be living with HCV, with approximately 1 million new cases annually. 
+
+Acute HCV infections are generally asymptomatic and rarely fatal. Approximately 30% of people infected spontaneously eliminate the virus in the six months following infection, while 70% develop chronic infection. Among those with chronic infections, the risk of developing cirrhosis within 20 years is between 15-30% [@Hepatitisb]. 
+
+À ce jour, aucun vaccin n'est disponible contre ce virus, mais il peut être guéri grâce aux antiviraux à action directe (AAD), qui permettent d'éliminer le virus chez plus de 95 % des patients traités. Cependant, l'accès au diagnostic et au traitement reste limité [@Hepatitisa; @Hepatitisb].
+
+En Afrique de l'Ouest, entre 10 et 33 millions de personnes seraient infectées par le VHC, qui est responsable de 10 à 25 % des cancers du foie [@linganiChangingEpidemiologyHepatitis2020]. Le Burkina Faso est considéré comme un pays à prévalence intermédiaire à élevée, avec environ 720 000 personnes vivant avec une infection chronique. Chaque année, près de 900 décès sont attribués aux complications du VHC. Une étude nationale menée en 2010 a rapporté une séroprévalence de 3,6 % dans la population générale, avec une prévalence particulièrement élevée de 13,2 % dans la région du Sud-Ouest (actuellement appelée Djôrô), suggérant une dynamique épidémique active [@medaHepatitisVirusSeroprevalence2018].
+
+Dans ce contexte, une étude a été menée en 2020 dans cette région afin d'approfondir les investigations au niveau des ménages et d'identifier les facteurs expliquant cette forte prévalence. Des clusters de cas de VHC ont été observés au sein de ces ménages, soulevant la question d'une possible transmission intrafamiliale. Ainsi, notre question de recherche est la suivante : **la transmission du VHC peut-elle se produire entre individus au sein d'un même ménage ?** Pour répondre à cette question, nous présenterons dans un premier temps les définitions des concepts clés de l'étude. Nous aborderons ensuite le contexte de l'étude, puis la méthodologie utilisée pour le traitement et l'analyse des données. Enfin, nous présenterons les résultats obtenus.
+
+\FloatBarrier
+
+## References {.unnumbered}
+
+::: {#refs}
+:::
