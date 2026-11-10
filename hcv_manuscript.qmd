@@ -48,15 +48,48 @@ execute:
 
 Hepatitis C virus causes chronic liver morbidity and mortality. While global HCV burden has improved in recent years, incidence continues to rise [@bai_global_2025]. In 2013, viral hepatitis represented the seventh greatest cause of mortality globally, with approximately 1.4 million deaths due to acute cases, cirrhosis, and liver cancer. Nearly half of these deaths are attributed to HCV. Among people living with HIV, coinfections with HCV are common, with approximately 2.9 million cases reported [@OrganisationMondialeSante; @VIHSidaHepatite2025]. At the global scale, 50 million people are estimated to be living with HCV, with approximately 1 million new cases annually. 
 
-Acute HCV infections are generally asymptomatic and rarely fatal. Approximately 30% of people infected spontaneously eliminate the virus in the six months following infection, while 70% develop chronic infection. Among those with chronic infections, the risk of developing cirrhosis within 20 years is between 15-30% [@Hepatitisb]. 
+Acute HCV infections are generally asymptomatic and rarely fatal. Approximately 30% of people infected spontaneously eliminate the virus in the six months following infection, while 70% develop chronic infection. Among those with chronic infections, the risk of developing cirrhosis within 20 years is between 15-30% [@Hepatitisb]. No vaccine is currently available against HCV, but direct acting antivirals prompt viral elimination in 95% of treated patients. However, access to diagnostics and treatment remain limited [@Hepatitisa; @Hepatitisb].
 
-À ce jour, aucun vaccin n'est disponible contre ce virus, mais il peut être guéri grâce aux antiviraux à action directe (AAD), qui permettent d'éliminer le virus chez plus de 95 % des patients traités. Cependant, l'accès au diagnostic et au traitement reste limité [@Hepatitisa; @Hepatitisb].
+In West Africa, between 10 to 33 million people are infected with HCV, which is responsible for 10 to 25% of liver cancers [@linganiChangingEpidemiologyHepatitis2020]. Burkina Faso has intermediate to elevated HCV burden, with approximately 720,000 people living with chronic infection. Each year, nearly 900 deaths are attributed to HCV complications. A national study conducted in 2010 reported seroprevalence of 3.6% in the general population, with a particularly elevated prevalence of 13.2% in the southwestern region of Djôrô, suggesting an active epidemic in the region [@medaHepatitisVirusSeroprevalence2018]. In this context, we conducted a study in 2020 to improve our understanding of HCV at the household level and identify factors explaining this high prevalence. HCV case clusters were observed within households, raising the possibility of intrafamilial transmission. In this study, we investigate HCV transmission at the household level using phylogenetic analysis of HCV sequence data. 
 
-En Afrique de l'Ouest, entre 10 et 33 millions de personnes seraient infectées par le VHC, qui est responsable de 10 à 25 % des cancers du foie [@linganiChangingEpidemiologyHepatitis2020]. Le Burkina Faso est considéré comme un pays à prévalence intermédiaire à élevée, avec environ 720 000 personnes vivant avec une infection chronique. Chaque année, près de 900 décès sont attribués aux complications du VHC. Une étude nationale menée en 2010 a rapporté une séroprévalence de 3,6 % dans la population générale, avec une prévalence particulièrement élevée de 13,2 % dans la région du Sud-Ouest (actuellement appelée Djôrô), suggérant une dynamique épidémique active [@medaHepatitisVirusSeroprevalence2018].
+HCV is an enveloped, positive-sense single-stranded RNA virus of the family Hepacivirus. Its two envelope glycoproteins (E1 and E2) facilitate attachment and penetration of hepatocytes. The core and NS5B protein-coding regions of its genome are the most common sequencing targets. 
 
-Dans ce contexte, une étude a été menée en 2020 dans cette région afin d'approfondir les investigations au niveau des ménages et d'identifier les facteurs expliquant cette forte prévalence. Des clusters de cas de VHC ont été observés au sein de ces ménages, soulevant la question d'une possible transmission intrafamiliale. Ainsi, notre question de recherche est la suivante : **la transmission du VHC peut-elle se produire entre individus au sein d'un même ménage ?** Pour répondre à cette question, nous présenterons dans un premier temps les définitions des concepts clés de l'étude. Nous aborderons ensuite le contexte de l'étude, puis la méthodologie utilisée pour le traitement et l'analyse des données. Enfin, nous présenterons les résultats obtenus.
+HCV has been characterized into eight distinct genotypes, and over 100 subtypes, differentiated by geographical, epidemiological, and clinical characteristics. [@chevaliezVirusLhepatiteVHC,@FlaviviridaeClassificationLHepacivirus].Genotypes 1,2, and 3 are globally widespread, while genotypes 5 and 6 are more commonly found in southern Africa and southeast Asia. Genotype 4 is predominant in central and north Africa, while genotypes 1 and 2 are more dominant in west Africa [@zebaCharacterisationHepatitisVirus2014].
 
-\FloatBarrier
+New infections typically occur in high-risk populations, such as injection drug users (IDU), men who have sex with men (MSM),  and sex workers (SW). In Sub-Saharan Africa, transmission occurs through iatrogenic sources, vertical transmission (mother-to-child), sexual practices involving exposure to blood, and social practices such as piercing, scarification, and tattooing [@ouobaEpidemiologicProfileHepatitis2021, @Hepatitisb].
+
+### Viral diversity of HCV Strains 
+
+As with other RNA viruses, HCV has a high mutation rate, estimated at $10^{-3}$ substitutions per site per year, contributing to its high genetic variability. 
+Several closely related yet distinct HCV populations (referred to as quasispecies) can be found within a single infected patient [@pawlotskyVirusLhepatite2002, @mennecierVirusLhepatiteMonhepatogastro2022].
+
+### Households
+
+In statistical terms, a household is a group of people who habitually live in the same dwelling, regardless of whether or not they are related [@MenageInsee]. According to the National Institute of Statistics and Demography (INSD) of Burkina Faso, a household is the basic unit used in statistical surveys. It refers to a group of people (whether related or not) who live in the same dwelling, pool their resources, and collectively meet their essential needs. A household may consist of a single person or several individuals; for example, a head of household, his wife or wives, his unmarried children, and/or other people living together [@BurkinaFasoRecensement]. Household transmission may occur through vertical transmission, transmission between sexual partners within the household, or contaminated objects such as knives, razors, or toothbrushes. 
+
+## Methods
+
+The ANRS REVERSO study was conducted in 2020 in the southwest region of Djôrô, Burkina Faso.
+
+Testing for HCV was conducted using rapid diagnostic tests (RDTs) during household visits. 
+
+Among participants who tested positive by RDT, dried blood spot (DBS) samples were collected (via fingerprick among adults and children over two years, and from heels of children under two years) and preserved on Whatman 903 Proteinsaver Cards (Merck, Darmstadt, Germany). 
+
+To detect and quantify HCV RNA in these samples, we used the Cobas AmpliPrep/Cobas TaqMan (qPCR) test. 
+
+We conducted RT-PCR and Sanger sequencing for core and NS5B genome regions. 
+
+We consider households in which we observe at least two cases of HCV infection as a household HCV cluster.
+
+
+## Results 
+
+
+## Discussion 
+
+
+### Conclusion
+
 
 ## References {.unnumbered}
 
